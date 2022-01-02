@@ -90,7 +90,8 @@ public class Parser
                         .append("\"").append(choose.get(0)).append("\",")
                         .append("\"").append(choose.get(1)).append("\",")
                         .append("\"").append("\",")
-                        .append("\"").append("\"");
+                        .append("\"dummy").append("\",")
+                        .append("\"dummy").append("\"");
                 //    "인덱스" ,  "선택1"   ,   "선택2"   ,   "번역1"   ,   "번역2"
 
                 index++;

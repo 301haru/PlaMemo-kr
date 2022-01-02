@@ -23,10 +23,9 @@ public class PlaMemoKR
         jObject = (JSONObject) jParser.parse(jArray.get(0).toString());
         JSONArray jArray1 = (JSONArray) jObject.get("texts");
 
-
-        for(int i=0; i<jArray1.size(); i++)
+        for (Object a : jArray1)
         {
-            jArray = (JSONArray) jArray1.get(i);//0부터 텍스트 쭉 나옴
+            jArray = (JSONArray) a;
             if(jArray.get(0) == null && jArray.get(1) == null)
             {
                 System.out.println(jArray.get(2));//0, 1은 null 2는 텍스트

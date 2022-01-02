@@ -23,6 +23,17 @@ public class Parser
 
         int index = 0;
 
+        StringBuilder sb1 = new StringBuilder();
+        sb1.append("\"").append("번호").append("\",")
+                .append("\"").append("이름").append("\",")
+                .append("\"").append("닉네임").append("\",")
+                .append("\"").append("문장").append("\",")
+                .append("\"").append("이름번역").append("\",")
+                .append("\"").append("닉네임번역").append("\",")
+                .append("\"").append("문장번역").append("\"");
+
+        output.add(sb1.toString());
+
         for(int i=0; i<jArrayOriginal.size(); i++)
         {
             jObject = (JSONObject) jParser.parse(jArrayOriginal.get(i).toString());

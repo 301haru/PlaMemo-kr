@@ -5,14 +5,12 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Reader;
+import java.io.*;
 import java.util.ArrayList;
 
-public class Parser
+public class JSONtoCSV
 {
-    public static ArrayList<String> decryptJSON(String fileName) throws IOException, ParseException
+    private static ArrayList<String> decryptJSON(String fileName) throws IOException, ParseException
     {
         ArrayList<String> output = new ArrayList<>();
         Reader json = new FileReader(fileName);
@@ -42,7 +40,6 @@ public class Parser
             {
                 JSONArray jArray1 = (JSONArray) jObject.get("texts");
 
-
                 for (Object a : jArray1)
                 {
                     JSONArray jArray = (JSONArray) a;
@@ -70,7 +67,6 @@ public class Parser
                     }
 
                     words = (String) jArray.get(2);
-
 
                     StringBuilder sb = new StringBuilder();
                     sb.append("\"").append(index).append("\",")
@@ -105,17 +101,47 @@ public class Parser
                         .append("\"dummy").append("\",")
                         .append("\"dummy").append("\"");
                 //    "인덱스" ,  "선택1"   ,   "선택2"   ,   "번역1"   ,   "번역2"
-
                 index++;
                 output.add(sb.toString());
             }
         }
-
-
-
-
-
-
         return output;
+    }
+
+    public static void toCSV(String fileName) throws IOException, ParseException
+    {
+        ArrayList list = decryptJSON(fileName);
+
+        String a = fileName.replace(".\\scenario_json", ".\\scenario_csv");
+
+        File csv = new File(a + ".csv");
+        createFile(csv);
+
+        BufferedWriter bufferedWriter;
+
+        bufferedWriter = new BufferedWriter(new FileWriter(csv));
+
+        for (Object s : list)
+        {
+            bufferedWriter.write((String)s);
+            bufferedWriter.newLine();
+        }
+
+        if (bufferedWriter != null)
+        {
+            bufferedWriter.flush();
+            bufferedWriter.close();
+        }
+    }
+
+    private static void createFile(File f)
+    {
+        try
+        {
+            f.createNewFile();
+        } catch (IOException e)
+        {
+            e.printStackTrace();
+        }
     }
 }

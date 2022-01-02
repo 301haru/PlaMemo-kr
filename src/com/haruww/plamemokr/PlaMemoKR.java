@@ -7,23 +7,42 @@ import java.util.ArrayList;
 
 public class PlaMemoKR
 {
+
+    static final int VALUE = 0;
+
+    //VALUE 0 : JSON to CSV
+    //VALUE 1 : CSV to JSON
+
     public static void main(String[] args)
     {
-        ArrayList<String> root = FileHandler.getFileDirs("./scenario_json");
+        Files files = new Files();
 
-        try
+
+        ArrayList<String> jsonFiles = files.getFileDirs("./scenario_json");
+        ArrayList<String> csvFiles = files.getFileDirs("./scenario_csv");
+
+        switch (VALUE)
         {
-            for(int i=0; i<root.size(); i++)
+            case 0:
             {
-                String fileName = root.get(i);
-
-                ArrayList arrayList = Parser.decryptJSON(fileName);
-                FileHandler.writeCSV(arrayList, fileName);
+                try
+                {
+                    for(int i=0; i<jsonFiles.size(); i++)
+                    {
+                        String fileName = jsonFiles.get(i);
+                        JSONtoCSV.toCSV(fileName);
+                    }
+                }
+                catch (IOException | ParseException e)
+                {
+                    e.printStackTrace();
+                }
+                break;
             }
-        }
-        catch (IOException | ParseException e)
-        {
-            e.printStackTrace();
+            case 1:
+            {
+                CSVtoJSON.toJSON();
+            }
         }
     }
 }

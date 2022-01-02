@@ -24,20 +24,19 @@ public class FileHandler
             bufferedWriter.write((String)s);
             bufferedWriter.newLine();
         }
+
+        if (bufferedWriter != null)
+        {
+            bufferedWriter.flush();
+            bufferedWriter.close();
+        }
     }
 
     private static void createFile(File f)
     {
         try
         {
-            if(f.createNewFile())
-            {
-                System.out.println("CSV FILE CREATED");
-            }
-            else
-            {
-                System.out.println("FILE ALREADY EXISTS");
-            }
+            f.createNewFile();
         } catch (IOException e)
         {
             e.printStackTrace();

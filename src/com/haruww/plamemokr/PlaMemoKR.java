@@ -10,15 +10,18 @@ public class PlaMemoKR
     public static void main(String[] args)
     {
         ArrayList<String> root = FileHandler.getFileDirs("./scenario_json");
-        //System.out.println(root);
+
         try
         {
-            for (String fileName : root)
+            for(int i=0; i<root.size(); i++)
             {
+                String fileName = root.get(i);
+
                 ArrayList arrayList = Parser.decryptJSON(fileName);
                 FileHandler.writeCSV(arrayList, fileName);
             }
-        } catch (IOException | ParseException e)
+        }
+        catch (IOException | ParseException e)
         {
             e.printStackTrace();
         }

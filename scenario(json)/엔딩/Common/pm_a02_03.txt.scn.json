@@ -1,0 +1,4742 @@
+{
+  "hash": "258e9e5d9d64bcc4288a0d5b43acd738",
+  "name": "pm_a02_03.txt",
+  "outlines": [],
+  "scenes": [
+    {
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [
+        [1,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["lse","loopse",{"name":"lse","replay":{"filename":"PMSE_D010","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          6
+        ],
+        ["envupdate","update",[["init",0],
+            ["new","bgm","bgm"],
+            {
+              "action": [null,["camerax",0],
+                ["cameray",0]
+              ],
+              "name": "env"
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 0,
+                "name": "env"
+              }
+            ]
+          }
+        ],
+        [2,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          6
+        ],
+        ["meswinload","page","both"],
+        [3,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0403na"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          6
+        ],
+        ["envupdate","update",[["new","アイラ","character"],
+            ["new","ミチル","character"],
+            ["new","ザック","character"],
+            ["new","カヅキ","character"],
+            ["new","シェリー","character"],
+            ["new","タカオ","character"],
+            ["new","レン","character"]
+          ]
+        ],
+        ["msgoff"],
+        ["envupdate","update",[["new","bg","stage"],
+            {
+              "action": [null,["zpos",233.33333333333337],
+                null,
+                ["leveloffset",""],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":1000,"value":100}],
+                  1
+                ]
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0403na"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "bg"
+              }
+            ]
+          }
+        ],
+        ["envupdate","update",[["del","アイラ"],
+            ["del","カヅキ"],
+            ["del","ザック"],
+            ["del","シェリー"],
+            ["del","タカオ"],
+            ["del","ミチル"],
+            ["del","レン"]
+          ]
+        ],
+        "cg_アイラ.stand",
+        "cg_ミチル.stand",
+        "cg_ザック.stand",
+        "cg_カヅキ.stand",
+        "cg_シェリー.stand",
+        "cg_タカオ.stand",
+        "cg_レン.stand",
+        [4,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0403na"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          1,
+          null,
+          61,
+          208,
+          null,
+          null
+        ],
+        1,
+        [5,1,2,null,63,192,null,null],
+        2,
+        [6,2,3,null,65,192,null,null],
+        3,
+        [7,3,4,null,67,192,null,null],
+        4,
+        [8,4,5,null,69,192,null,null],
+        5,
+        [9,5,null,null,69],
+        ["msgoff"],
+        ["envupdate","update",[["new","ev","event"],
+            {
+              "action": [
+                ["leveloffset",""],
+                ["zpos",-60.0],
+                null,
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":250,"value":100}],
+                  1
+                ]
+              ],
+              "class": "event",
+              "link": null,
+              "name": "ev",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pm_ev001a"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "time": 250
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "ev"
+              }
+            ]
+          }
+        ],
+        "cg_pm_ev001a",
+        [10,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0403na"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          72
+        ],
+        ["envupdate","update",[["del","ev"],
+            ["new","ev","event"],
+            {
+              "action": [
+                ["leveloffset",""],
+                ["zpos",-60.0],
+                null
+              ],
+              "class": "event",
+              "link": null,
+              "name": "ev",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pm_ev001b"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },
+            {
+              "name": "bg",
+              "showmode": 2
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 500.0
+            },
+            "bgcolor": -1,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 500.0
+            },
+            "method": "crossfade",
+            "msgoff": 1,
+            "time": 1000
+          },
+          "msgoff",
+          1
+        ],
+        ["envupdate","update",[["del","bg"]
+          ]
+        ],
+        "cg_pm_ev001b",
+        [11,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          6,
+          null,
+          80,
+          216,
+          null,
+          null
+        ],
+        6,
+        [12,6,7,null,82,200,null,null],
+        7,
+        [13,7,8,null,86,200,null,null],
+        8,
+        [14,8,9,null,88,200,null,null],
+        9,
+        [15,9,10,null,91,200,null,null],
+        10,
+        [16,10,11,null,93,200,null,null],
+        11,
+        [17,11,12,null,95,200,null,null],
+        12,
+        [18,12,13,null,97,200,null,null],
+        13,
+        [19,13,null,null,97],
+        ["msgoff"],
+        ["envupdate","update",[["new","se","se"],
+            {
+              "name": "se",
+              "replay": {
+                "filename": "PMSE_A004",
+                "start": null,
+                "time": 0,
+                "volume": 50.0
+              }
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "se"
+              }
+            ]
+          }
+        ],
+        [20,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          100
+        ],
+        ["envupdate","update",[{"name":"ev","showmode":2}],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 1000.0
+            },
+            "bgcolor": -16777216,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 1000.0
+            },
+            "method": "crossfade",
+            "msgoff": 1,
+            "time": "2000"
+          },
+          "msgoff",
+          1
+        ],
+        ["envupdate","update",[["del","ev"]
+          ]
+        ],
+        [21,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          105
+        ],
+        ["envupdate","update",[["new","bg","stage"],
+            {
+              "action": [null,["zpos",233.33333333333337],
+                null,
+                ["leveloffset",""],
+                ["ypos",[{"handler":"MoveAction","start":200,"time":1500,"value":-200}],
+                  1
+                ],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":"1500","value":100}],
+                  1
+                ]
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0007aa"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "sync": 1,
+                "time": "1500"
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "bg"
+              }
+            ]
+          }
+        ],
+        [22,{"data":[["bg","stage",{"action":[["ypos",-200],
+                    ["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          14,
+          null,
+          113,
+          208,
+          null,
+          null
+        ],
+        ["envupdate","update",[{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"trans":{"method":"","time":0}}]
+        ],
+        "bgm_PM_BGM003",
+        14,
+        [23,14,15,null,115,192,null,null],
+        15,
+        [24,15,16,null,117,192,null,null],
+        16,
+        [25,16,17,null,119,192,null,null],
+        17,
+        [26,17,18,null,121,192,null,null],
+        18,
+        [27,18,19,null,123,192,null,null],
+        19,
+        [28,19,20,null,125,192,null,null],
+        20,
+        [29,20,21,null,127,192,null,null],
+        21,
+        [30,21,null,null,127],
+        ["envupdate","update",[{"name":"bg","showmode":2}],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 750.0
+            },
+            "bgcolor": -16777216,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 750.0
+            },
+            "method": "crossfade",
+            "msgoff": "true",
+            "time": "1500"
+          },
+          "msgoff",
+          1
+        ],
+        ["envupdate","update",[["del","bg"]
+          ]
+        ],
+        [31,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          129
+        ],
+        ["envupdate","pretrans",[["new","bg","stage"]
+          ],
+          "update",
+          [
+            {
+              "action": [null,["zpos",233.33333333333337],
+                null,
+                ["leveloffset",""]
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0012aa"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "universal",
+                "rule": "map18",
+                "time": 1000
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":1,"name":"bg"}]
+          },
+          "trans",
+          {
+            "method": "universal",
+            "rule": "map18",
+            "time": 1000
+          }
+        ],
+        [32,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0012aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          22,
+          null,
+          136,
+          208,
+          null,
+          null
+        ],
+        22,
+        [33,22,23,null,138,192,null,null],
+        23,
+        [34,23,24,null,141,192,null,null],
+        24,
+        [35,24,null,null,141],
+        ["envupdate","update",[{"name":"bg","showmode":2}],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 750.0
+            },
+            "bgcolor": -16777216,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 750.0
+            },
+            "method": "crossfade",
+            "msgoff": "true",
+            "time": "1500"
+          },
+          "msgoff",
+          1
+        ],
+        ["envupdate","update",[["del","bg"]
+          ]
+        ],
+        [36,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          143
+        ],
+        ["envupdate","pretrans",[["new","bg","stage"]
+          ],
+          "update",
+          [
+            {
+              "action": [null,["zpos",233.33333333333337],
+                null,
+                ["leveloffset",""]
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0004aa"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "universal",
+                "rule": "map18",
+                "time": 1000
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":1,"name":"bg"}]
+          },
+          "trans",
+          {
+            "method": "universal",
+            "rule": "map18",
+            "time": 1000
+          }
+        ],
+        [37,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          25,
+          null,
+          150,
+          208,
+          null,
+          null
+        ],
+        25,
+        [38,25,26,null,156,192,null,null],
+        ["envupdate","update",[["new","カヅキ","character"],
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",0],
+                ["$lip","$lipカヅキ"],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":300,"value":100}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "カヅキ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "カヅキ_f4de1372fd55e18459402c30cd566480",
+                  "options": {
+                    "face": "目_笑顔:口_笑顔"
+                  }
+                },
+                "posName": "前"
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "time": 300
+              },
+              "type": null
+            }
+          ]
+        ],
+        "cg_カヅキ.stand",
+        26,
+        [39,26,27,null,160,192,null,null],
+        27,
+        [40,27,null,null,160],
+        ["envupdate","update",[{"action":[["xpos",250],
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",0],
+                ["visvalue",[{"handler":"MoveAction","time":0,"value":"0"},{"accel":-1,"handler":"MoveAction","time":500,"value":"100"}],
+                  1
+                ],
+                ["xpos",[{"handler":"MoveAction","time":0,"value":"@-15"},{"accel":-1,"handler":"MoveAction","time":500,"value":"@"}],
+                  1
+                ],
+                ["$lip","$lipカヅキ"]
+              ],
+              "class": "character",
+              "hideact": [
+                ["visvalue",[{"accel":1,"handler":"MoveAction","time":500,"value":"0"},{"handler":"wait"}]
+                ],
+                ["xpos",[{"accel":"acdec","handler":"MoveAction","time":500,"value":"@+15"},{"accel":"acdec","handler":"MoveAction","time":0,"value":"@"}]
+                ]
+              ],
+              "link": null,
+              "name": "カヅキ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "カヅキ_f4de1372fd55e18459402c30cd566480",
+                  "options": {
+                    "face": "目_笑顔:口_笑顔"
+                  }
+                },
+                "posName": "前"
+              },
+              "showmode": 3,
+              "trans": {
+                "sync": 1,
+                "time": 500
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "カヅキ"
+              }
+            ]
+          }
+        ],
+        [41,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_f4de1372fd55e18459402c30cd566480",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "前"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          160
+        ],
+        ["envupdate","update",[["new","タカオ","character"],
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",1],
+                ["xpos",-250],
+                ["$lip","$lipタカオ"],
+                ["visvalue",[{"handler":"MoveAction","time":0,"value":"0"},{"accel":-1,"handler":"MoveAction","time":500,"value":"100"}],
+                  1
+                ],
+                ["xpos",[{"handler":"MoveAction","time":0,"value":"@-15"},{"accel":-1,"handler":"MoveAction","time":500,"value":"@"}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "タカオ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "タカオ_ba1eb3be6a9c14a381bbda6886f189f2",
+                  "options": {
+                    "face": "目_笑顔:口_笑顔"
+                  }
+                },
+                "posName": "出右"
+              },
+              "showmode": 1,
+              "trans": {
+                "sync": 1,
+                "time": 500
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "タカオ"
+              }
+            ]
+          }
+        ],
+        "cg_タカオ.stand",
+        [42,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_f4de1372fd55e18459402c30cd566480",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "前"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipタカオ"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "タカオ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          28,
+          null,
+          167,
+          192,
+          null,
+          null
+        ],
+        28,
+        [43,28,29,null,171,192,null,null],
+        29,
+        [44,29,30,null,173,192,null,null],
+        30,
+        [45,30,null,null,173],
+        ["envupdate","update",[{"hideact":[["visvalue",[{"delay":null,"handler":"MoveAction","time":300,"value":0}]
+                ]
+              ],
+              "name": "カヅキ",
+              "showmode": 2,
+              "trans": {
+                "method": "",
+                "time": 300
+              }
+            },
+            {
+              "hideact": [
+                ["visvalue",[{"delay":null,"handler":"MoveAction","time":300,"value":0}]
+                ]
+              ],
+              "name": "タカオ",
+              "showmode": 2,
+              "trans": {
+                "method": "",
+                "time": 300
+              }
+            }
+          ]
+        ],
+        [46,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lipコンスタンス"],
+                    ["order",-2]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "コンスタンス_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["$lip","$lipシェリー"],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "シェリー_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipレン"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "レン_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          175
+        ],
+        ["envupdate","update",[["new","レン","character"],
+            ["new","コンスタンス","character"],
+            ["new","シェリー","character"],
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",2],
+                ["xpos",0],
+                ["$lip","$lipシェリー"],
+                ["visvalue",[{"handler":"MoveAction","time":0,"value":"0"},{"accel":-1,"handler":"MoveAction","time":500,"value":"100"}],
+                  1
+                ],
+                ["xpos",[{"handler":"MoveAction","time":0,"value":"@+15"},{"accel":-1,"handler":"MoveAction","time":500,"value":"@"}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "シェリー",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "シェリー_ba1eb3be6a9c14a381bbda6886f189f2",
+                  "options": {
+                    "face": "目_笑顔:口_笑顔"
+                  }
+                },
+                "posName": "出左"
+              },
+              "showmode": 1,
+              "trans": {
+                "sync": 1,
+                "time": 500
+              },
+              "type": null
+            },
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["xpos",250],
+                ["order",-2],
+                ["$lip","$lipコンスタンス"],
+                ["visvalue",[{"handler":"MoveAction","time":0,"value":"0"},{"accel":-1,"handler":"MoveAction","time":500,"value":"100"}],
+                  1
+                ],
+                ["xpos",[{"handler":"MoveAction","time":0,"value":"@+15"},{"accel":-1,"handler":"MoveAction","time":500,"value":"@"}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "コンスタンス",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "コンスタンス_ba1eb3be6a9c14a381bbda6886f189f2",
+                  "options": {
+                    "face": "目_笑顔:口_笑顔"
+                  }
+                },
+                "posName": "出左"
+              },
+              "showmode": 1,
+              "trans": {
+                "back": "true",
+                "sync": 1,
+                "time": 500
+              },
+              "type": null
+            },
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["xpos",-250],
+                ["order",-1],
+                ["$lip","$lipレン"],
+                ["visvalue",[{"handler":"MoveAction","time":0,"value":"0"},{"accel":-1,"handler":"MoveAction","time":500,"value":"100"}],
+                  1
+                ],
+                ["xpos",[{"handler":"MoveAction","time":0,"value":"@-15"},{"accel":-1,"handler":"MoveAction","time":500,"value":"@"}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "レン",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "レン_ba1eb3be6a9c14a381bbda6886f189f2",
+                  "options": {
+                    "face": "目_笑顔:口_笑顔"
+                  }
+                },
+                "posName": "出右"
+              },
+              "showmode": 1,
+              "trans": {
+                "back": "true",
+                "sync": 1,
+                "time": 500
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "シェリー"
+              },
+              {
+                "mode": 1,
+                "name": "コンスタンス"
+              },
+              {
+                "mode": 1,
+                "name": "レン"
+              }
+            ]
+          }
+        ],
+        "cg_レン.stand",
+        "cg_コンスタンス.stand",
+        "cg_シェリー.stand",
+        [47,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lipコンスタンス"],
+                    ["order",-2]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "コンスタンス_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["$lip","$lipシェリー"],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "シェリー_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipレン"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "レン_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          31,
+          null,
+          185,
+          192,
+          null,
+          null
+        ],
+        31,
+        [48,31,32,null,189,192,null,null],
+        32,
+        [49,32,33,null,195,192,null,null],
+        ["delayrun",2100,"envupdate","update",[{"action":[["$lip","$lipシェリー"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "シェリー",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "シェリー_ba1eb3be6a9c14a381bbda6886f189f2",
+                  "options": {
+                    "face": "目_呆れ:口_呆れ"
+                  }
+                },
+                "posName": "出左"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        33,
+        [50,33,null,null,195],
+        ["envupdate","update",[{"hideact":[["visvalue",[{"delay":null,"handler":"MoveAction","time":300,"value":0}]
+                ]
+              ],
+              "name": "シェリー",
+              "showmode": 2,
+              "trans": {
+                "method": "",
+                "time": 300
+              }
+            },
+            {
+              "hideact": [
+                ["visvalue",[{"delay":null,"handler":"MoveAction","time":300,"value":0}]
+                ]
+              ],
+              "name": "コンスタンス",
+              "showmode": 2,
+              "trans": {
+                "method": "",
+                "time": 300
+              }
+            },
+            {
+              "hideact": [
+                ["visvalue",[{"delay":null,"handler":"MoveAction","time":300,"value":0}]
+                ]
+              ],
+              "name": "レン",
+              "showmode": 2,
+              "trans": {
+                "method": "",
+                "time": 300
+              }
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 0,
+                "name": "コンスタンス"
+              }
+            ]
+          }
+        ],
+        [51,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          197
+        ],
+        ["envupdate","update",[["new","ザック","character"],
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",3],
+                ["xpos",0],
+                ["$lip","$lipザック"],
+                ["visvalue",[{"handler":"MoveAction","time":0,"value":"0"},{"accel":-1,"handler":"MoveAction","time":500,"value":"100"}],
+                  1
+                ],
+                ["xpos",[{"handler":"MoveAction","time":0,"value":"@+15"},{"accel":-1,"handler":"MoveAction","time":500,"value":"@"}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "ザック",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ザック_7c153d0422275dd8f264963a45191189",
+                  "options": {
+                    "face": "目_笑顔:口_笑顔"
+                  }
+                },
+                "posName": "出左"
+              },
+              "showmode": 1,
+              "trans": {
+                "sync": 1,
+                "time": 500
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "ザック"
+              }
+            ]
+          }
+        ],
+        "cg_ザック.stand",
+        [52,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["$lip","$lipザック"],
+                    ["order",3],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ザック_7c153d0422275dd8f264963a45191189",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          34,
+          null,
+          204,
+          192,
+          null,
+          null
+        ],
+        34,
+        [53,34,null,null,204],
+        ["envupdate","update",[{"action":[["xpos",-250],
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",3],
+                ["visvalue",[{"handler":"MoveAction","time":0,"value":"0"},{"accel":-1,"handler":"MoveAction","time":500,"value":"100"}],
+                  1
+                ],
+                ["xpos",[{"handler":"MoveAction","time":0,"value":"@+15"},{"accel":-1,"handler":"MoveAction","time":500,"value":"@"}],
+                  1
+                ],
+                ["$lip","$lipザック"]
+              ],
+              "class": "character",
+              "hideact": [
+                ["visvalue",[{"accel":1,"handler":"MoveAction","time":500,"value":"0"},{"handler":"wait"}]
+                ],
+                ["xpos",[{"accel":"acdec","handler":"MoveAction","time":500,"value":"@-15"},{"accel":"acdec","handler":"MoveAction","time":0,"value":"@"}]
+                ]
+              ],
+              "link": null,
+              "name": "ザック",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ザック_7c153d0422275dd8f264963a45191189",
+                  "options": {
+                    "face": "目_笑顔:口_笑顔"
+                  }
+                },
+                "posName": "前"
+              },
+              "showmode": 3,
+              "trans": {
+                "sync": 1,
+                "time": 500
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "ザック"
+              }
+            ]
+          }
+        ],
+        [54,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["zpos",0.0],
+                    ["$lip","$lipザック"],
+                    ["xpos",-250],
+                    ["order",3]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ザック_7c153d0422275dd8f264963a45191189",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "前"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          204
+        ],
+        ["envupdate","update",[["new","ミチル","character"],
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",4],
+                ["xpos",250],
+                ["$lip","$lipミチル"],
+                ["visvalue",[{"handler":"MoveAction","time":0,"value":"0"},{"accel":-1,"handler":"MoveAction","time":200,"value":"100"}],
+                  1
+                ],
+                ["xpos",[{"handler":"MoveAction","time":0,"value":"@+40"},{"accel":-1,"handler":"MoveAction","time":200,"value":"@"}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "ミチル",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ミチル_ba1eb3be6a9c14a381bbda6886f189f2",
+                  "options": {
+                    "face": "目_照れa:口_照れ"
+                  }
+                },
+                "posName": "出左速"
+              },
+              "showmode": 1,
+              "trans": {
+                "sync": 1,
+                "time": 200
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "ミチル"
+              }
+            ]
+          }
+        ],
+        "cg_ミチル.stand",
+        [55,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["zpos",0.0],
+                    ["$lip","$lipザック"],
+                    ["xpos",-250],
+                    ["order",3]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ザック_7c153d0422275dd8f264963a45191189",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "前"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミチル","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lipミチル"],
+                    ["order",4]
+                  ],
+                  "class": "character",
+                  "name": "ミチル",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ミチル_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_照れa:口_照れ"
+                      }
+                    },
+                    "posName": "出左速"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          35,
+          null,
+          211,
+          192,
+          null,
+          null
+        ],
+        35,
+        [56,35,null,null,211],
+        ["envupdate","update",[{"action":[["$lip","$lipザック"]
+              ],
+              "class": "character",
+              "hideact": [
+                ["visvalue",[{"accel":1,"handler":"MoveAction","time":500,"value":"0"},{"handler":"wait"}]
+                ],
+                ["xpos",[{"accel":"acdec","handler":"MoveAction","time":500,"value":"@-15"},{"accel":"acdec","handler":"MoveAction","time":0,"value":"@"}]
+                ]
+              ],
+              "link": null,
+              "name": "ザック",
+              "showmode": 2,
+              "trans": {
+                "sync": 1,
+                "time": 500
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "ザック"
+              }
+            ]
+          }
+        ],
+        [57,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["xpos",-250],
+                    ["order",3],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミチル","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lipミチル"],
+                    ["order",4]
+                  ],
+                  "class": "character",
+                  "name": "ミチル",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ミチル_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_照れa:口_照れ"
+                      }
+                    },
+                    "posName": "出左速"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          211
+        ],
+        ["envupdate","update",[{"action":[["$lip","$lipミチル"]
+              ],
+              "class": "character",
+              "hideact": [
+                ["visvalue",[{"accel":1,"handler":"MoveAction","time":500,"value":"0"},{"handler":"wait"}]
+                ],
+                ["xpos",[{"accel":"acdec","handler":"MoveAction","time":500,"value":"@-15"},{"accel":"acdec","handler":"MoveAction","time":0,"value":"@"}]
+                ]
+              ],
+              "link": null,
+              "name": "ミチル",
+              "showmode": 2,
+              "trans": {
+                "sync": 1,
+                "time": 500
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "ミチル"
+              }
+            ]
+          }
+        ],
+        [58,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["xpos",-250],
+                    ["order",3],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミチル","character",{"action":[["xpos",250],
+                    ["order",4],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミチル",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          36,
+          null,
+          216,
+          192,
+          null,
+          null
+        ],
+        36,
+        [59,36,37,null,220,192,null,null],
+        37,
+        [60,37,38,null,222,192,null,null],
+        38,
+        [61,38,39,null,228,192,null,null],
+        39,
+        [62,39,40,null,230,192,null,null],
+        40,
+        [63,40,null,null,230],
+        ["envupdate","pretrans",[["new","ev","event"]
+          ],
+          "update",
+          [
+            {
+              "action": [
+                ["leveloffset",""],
+                ["zpos",-60.0],
+                null
+              ],
+              "class": "event",
+              "link": null,
+              "name": "ev",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pm_ev041a"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "bgcolor": -1,
+                "blacktrans": 1,
+                "msgoff": 1,
+                "time": 1000
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":1,"name":"ev"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 500.0
+            },
+            "bgcolor": -1,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 500.0
+            },
+            "method": "crossfade",
+            "msgoff": 1,
+            "time": 1000
+          },
+          "msgoff",
+          1
+        ],
+        "cg_pm_ev041a",
+        [64,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev041a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["xpos",-250],
+                    ["order",3],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミチル","character",{"action":[["xpos",250],
+                    ["order",4],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミチル",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          41,
+          null,
+          237,
+          216,
+          null,
+          null
+        ],
+        41,
+        [65,41,42,null,239,200,null,null],
+        42,
+        [66,42,null,null,239],
+        ["envupdate","update",[{"name":"se","stop":3000}]
+        ],
+        ["envupdate","update",[{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":0,"volume":50.0},"trans":{"method":"","time":"4500"}}]
+        ],
+        [67,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          243
+        ],
+        ["envupdate","update",[{"name":"ev","showmode":2},{"name":"bg","showmode":2}],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 2000.0
+            },
+            "bgcolor": -1,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 2000.0
+            },
+            "method": "crossfade",
+            "msgoff": "true",
+            "time": "4000"
+          },
+          "msgoff",
+          1
+        ],
+        ["envupdate","update",[["del","bg"],
+            ["del","ev"],
+            ["del","カヅキ"],
+            ["del","コンスタンス"],
+            ["del","ザック"],
+            ["del","シェリー"],
+            ["del","タカオ"],
+            ["del","ミチル"],
+            ["del","レン"]
+          ]
+        ],
+        [68,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          245
+        ],
+        ["wait","time","1000","sync","true"],
+        [69,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          246
+        ]
+      ],
+      "postevals": ["setRouteEnd(83)","setScnEnd(83)","mergeSysFlag()"],
+      "spCount": 69,
+      "texts": [
+        [null,null,"あれから、夏が過ぎ、秋が過ぎ、冬が過ぎて、また、春がやって来た。",null,208,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0403na"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"約９ヶ月の海外研修を終えて帰ってきた俺が真っ先に向かったのは、あのショッピングモールだった。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0403na"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"帰国した時間が遅かったせいか、到着したときには閉店間際で、慌ててエレベーターへと駆け込む。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0403na"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"目当ては、最上階のハーブショップだった。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0403na"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"帰ってきたら、真っ先にそこへ行って、自分の好きなマジョラムティーの茶葉を買おうって決めていたんだ。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0403na"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"エレベーターがゆっくりと上昇していく。",null,216,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"窓の外には、遠くにライトアップされた遊園地の観覧車が見えていた。",null,200,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"…………",[{"labels":[0,"vlstart",120,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 2000,
+              "type": 0,
+              "voice": "PM_A02_03_TSU0000"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"ここに、君はいない。",null,200,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺は、ポケットからキーホルダーを取り出した。\\nあの遊園地のヘンテコマスコットだ。色違いのものをふたつ、連結させていつも持ち歩いているんだ。",null,200,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"それを、ギュッと握りしめて。",null,200,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"もし、自分の命の時間が、あらかじめ決まっていたとしたら、俺ならどう受け止めるだろう。",null,200,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺は、その限られた時間を、最後の瞬間まで精一杯、生きようって思う。",null,200,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001b"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"翌朝。",null,208,{"data":[["bg","stage",{"action":[["ypos",-200],
+                    ["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺は、スーツを着込んでＳＡＩの本社へと歩いていた。",null,192,{"data":[["bg","stage",{"action":[["ypos",-200],
+                    ["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"道には桜の花びらが舞っていて、１年前、新社会人として同じ道を歩いたことを思い出す。",null,192,{"data":[["bg","stage",{"action":[["ypos",-200],
+                    ["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"別部署に異動するかっていう話も来ていた。",null,192,{"data":[["bg","stage",{"action":[["ypos",-200],
+                    ["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"それでも、海外研修の後でここに戻ってくることを希望したのは、俺自身だ。",null,192,{"data":[["bg","stage",{"action":[["ypos",-200],
+                    ["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"ここには、俺と、彼女の想い出が溢れている。",null,192,{"data":[["bg","stage",{"action":[["ypos",-200],
+                    ["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"それを忘れないためにも。それを引き継いでいくためにも。",null,192,{"data":[["bg","stage",{"action":[["ypos",-200],
+                    ["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺はやっぱり、ここで働きたかった。",null,192,{"data":[["bg","stage",{"action":[["ypos",-200],
+                    ["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"第１ターミナルサービスのオフィスに顔を出す前に、裏にあるハーブ置き場をのぞいてみた。",null,208,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0012aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"そこには、１年前と変わらずにハーブを植えたプランターが並んでいて、しっかりと手入れもされているのが一目で分かった。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0012aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺が無理を言って、ミチルとザックに世話を頼んだんだけど。\\n２人とも、ちゃんとやってくれていたようで、ついつい笑みがこぼれてしまった。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0012aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"オフィスに行くと、見知った顔が出迎えてくれた。",null,208,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["カヅキ",null,"どうだったよ、向こうでの研修は",[{"labels":[0,"vlstart",175,"vlstop"],
+              "name": "カヅキ",
+              "pan": 0,
+              "time": 2930,
+              "type": 0,
+              "voice": "PM_A02_03_KAD0000",
+              "vols": [0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,0,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2,1,1,0,0,1,2,2,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,2,2,1,1,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,2,2,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_f4de1372fd55e18459402c30cd566480",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "前"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"はい、いろいろ勉強になりました",[{"labels":[0,"vlstart",153,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 2550,
+              "type": 0,
+              "voice": "PM_A02_03_TSU0001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_f4de1372fd55e18459402c30cd566480",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "前"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["タカオ",null,"９ヶ月だっけ？　あっという間だったねえ",[{"labels":[0,"vlstart",246,"vlstop"],
+              "name": "タカオ",
+              "pan": 0,
+              "time": 4113,
+              "type": 0,
+              "voice": "PM_A02_03_TAK0000",
+              "vols": [0,0,0,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,1,1,1,2,2,1,1,1,1,1,2,2,2,2,2,1,1,0,0,0,0,0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,2,2,2,2,1,1,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,1,1,1,1,2,2,2,1,1,0,0,0,0,0,0,0,0,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_f4de1372fd55e18459402c30cd566480",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "前"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipタカオ"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "タカオ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"これからまたここでお世話になります。よろしくお願いします！",[{"labels":[0,"vlstart",244,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 4071,
+              "type": 0,
+              "voice": "PM_A02_03_TSU0002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_f4de1372fd55e18459402c30cd566480",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "前"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipタカオ"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "タカオ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"課長とカヅキさんに、頭を下げる。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_f4de1372fd55e18459402c30cd566480",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "前"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipタカオ"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "タカオ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["レン",null,"ツカサくん、またよろしくね！",[{"labels":[0,"vlstart",133,"vlstop"],
+              "name": "レン",
+              "pan": 0,
+              "time": 2227,
+              "type": 0,
+              "voice": "PM_A02_03_REN0000",
+              "vols": [0,0,1,1,1,1,1,1,1,0,0,1,2,2,2,2,1,1,1,1,1,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lipコンスタンス"],
+                    ["order",-2]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "コンスタンス_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["$lip","$lipシェリー"],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "シェリー_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipレン"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "レン_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["コンスタンス",null,"おかえりなさい、ツカサ",[{"labels":[0,"vlstart",87,"vlstop"],
+              "name": "コンスタンス",
+              "pan": 0,
+              "time": 1455,
+              "type": 0,
+              "voice": "PM_A02_03_CON0000",
+              "vols": [0,0,1,2,2,2,2,1,1,1,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,1,1,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lipコンスタンス"],
+                    ["order",-2]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "コンスタンス_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["$lip","$lipシェリー"],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "シェリー_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipレン"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "レン_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["シェリー",null,"歓迎します、ツカサ。ちなみにヤスタカは、今日も欠勤です",[{"labels":[0,"vlstart",353,"vlstop"],
+              "name": "シェリー",
+              "pan": 0,
+              "time": 5892,
+              "type": 0,
+              "voice": "PM_A02_03_SHE0000",
+              "vols": [1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,2,2,2,2,1,0,0,1,2,2,2,1,1,1,1,1,1,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,0,0,0,1,1,2,2,2,2,2,1,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lipコンスタンス"],
+                    ["order",-2]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "コンスタンス_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["$lip","$lipシェリー"],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "シェリー_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_呆れ:口_呆れ"
+                      }
+                    },
+                    "posName": "出左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipレン"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "レン_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ザック",null,"ねえねえツカサ、聞いてよ。ミチルがバッサリ髪切ったんだよ。しかも、ツカサが海外に行った直後にさ",[{"labels":[0,"vlstart",515,"vlstop"],
+              "name": "ザック",
+              "pan": 0,
+              "time": 8587,
+              "type": 0,
+              "voice": "PM_A02_03_ZAC0000",
+              "vols": [0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,0,0,1,2,2,2,2,1,0,0,0,1,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,0,0,1,1,1,1,2,2,2,2,2,1,1,1,2,2,2,2,2,2,1,1,0,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,2,1,1,1,1,2,2,2,2,2,1,1,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,1,0,0,0,1,1,1,2,2,2,2,2,2,2,2,1,0,0,1,2,2,1,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,1,0,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,1,2,2,2,2,1,1,1,2,2,2,2,2,1,1,1,1,1,2,2,1,1,2,2,2,1,1,0,0,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,0,0,0,0,0,2,2,2,2,1,0,0,0,1,2,2,2,2,2,2,2,2,1,0,0,1,1,2,2,2,2,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["$lip","$lipザック"],
+                    ["order",3],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ザック_7c153d0422275dd8f264963a45191189",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "出左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ミチル",null,"ちょっ、ザック、そんなこと今さらバラすな！",[{"labels":[0,"vlstart",217,"vlstop"],
+              "name": "ミチル",
+              "pan": 0,
+              "time": 3621,
+              "type": 0,
+              "voice": "PM_A02_03_MIC0000",
+              "vols": [0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,0,0,0,0,1,1,2,2,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["zpos",0.0],
+                    ["$lip","$lipザック"],
+                    ["xpos",-250],
+                    ["order",3]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ザック_7c153d0422275dd8f264963a45191189",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "前"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミチル","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lipミチル"],
+                    ["order",4]
+                  ],
+                  "class": "character",
+                  "name": "ミチル",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ミチル_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_照れa:口_照れ"
+                      }
+                    },
+                    "posName": "出左速"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"みんな、変わらないな。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["xpos",-250],
+                    ["order",3],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミチル","character",{"action":[["xpos",250],
+                    ["order",4],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミチル",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"みんな、改めて、よろしくお願いします",[{"labels":[0,"vlstart",193,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 3222,
+              "type": 0,
+              "voice": "PM_A02_03_TSU0003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["xpos",-250],
+                    ["order",3],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミチル","character",{"action":[["xpos",250],
+                    ["order",4],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミチル",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"そのとき、オフィスのドアが開いて、制服を着た小柄な女の子が入ってきた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["xpos",-250],
+                    ["order",3],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミチル","character",{"action":[["xpos",250],
+                    ["order",4],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミチル",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["カヅキ",null,"おっ、ちょうどよかった。紹介する。ツカサ、こいつがお前の新しいパートナーだ",[{"labels":[0,"vlstart",491,"vlstop"],
+              "name": "カヅキ",
+              "pan": 0,
+              "time": 8189,
+              "type": 0,
+              "voice": "PM_A02_03_KAD0001",
+              "vols": [0,1,1,2,2,2,2,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,1,1,0,0,0,0,1,2,2,2,2,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,1,1,1,2,2,2,2,2,2,2,1,1,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,0,0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["xpos",-250],
+                    ["order",3],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミチル","character",{"action":[["xpos",250],
+                    ["order",4],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミチル",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺はその子に向き直ると、笑顔で手を差し伸べた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["xpos",-250],
+                    ["order",3],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミチル","character",{"action":[["xpos",250],
+                    ["order",4],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミチル",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"今日から、俺たちパートナーだね。よろしく",[{"labels":[0,"vlstart",207,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 3465,
+              "type": 0,
+              "voice": "PM_A02_03_TSU0004"
+            }
+          ],
+          216,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev041a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["xpos",-250],
+                    ["order",3],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミチル","character",{"action":[["xpos",250],
+                    ["order",4],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミチル",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"この場所で、俺は、想い出を胸に、新しい日々を生きていく。",null,200,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0004aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM003","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev041a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["xpos",250],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["コンスタンス","character",{"action":[["xpos",250],
+                    ["order",-2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "コンスタンス",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ザック","character",{"action":[["xpos",-250],
+                    ["order",3],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ザック",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["シェリー","character",{"action":[["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "シェリー",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["タカオ","character",{"action":[["xpos",-250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "タカオ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミチル","character",{"action":[["xpos",250],
+                    ["order",4],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミチル",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["レン","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "レン",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ]
+      ],
+      "title": "「エピローグ」"
+    }
+  ]
+}

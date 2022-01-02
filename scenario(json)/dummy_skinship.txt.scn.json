@@ -1,0 +1,2061 @@
+{
+  "hash": "c40f0c4e567e3f15905b3470dc8e0981",
+  "name": "dummy_skinship.txt",
+  "outlines": [],
+  "scenes": [
+    {
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [
+        [1,{"data":[],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          5
+        ],
+        ["envupdate","update",[["init",0],
+            ["new","bgm","bgm"],
+            {
+              "action": [null],
+              "name": "env"
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 0,
+                "name": "env"
+              }
+            ]
+          }
+        ],
+        [2,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          5
+        ],
+        ["meswinload","page","both"],
+        [3,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          1,
+          null,
+          11,
+          192,
+          null,
+          null
+        ],
+        1,
+        [4,1,2,null,15,192,null,null],
+        2,
+        [5,2,3,null,19,192,null,null],
+        3,
+        [6,3,4,null,23,192,null,null],
+        4,
+        [7,4,5,null,27,192,null,null],
+        5,
+        [8,5,6,null,31,192,null,null],
+        6,
+        [9,6,7,null,35,192,null,null],
+        7,
+        [10,7,8,null,39,192,null,null],
+        8,
+        [11,8,9,null,43,192,null,null],
+        9,
+        [12,9,10,null,47,192,null,null],
+        10,
+        [13,10,11,null,51,192,null,null],
+        11,
+        [14,11,12,null,55,192,null,null],
+        12,
+        [15,12,13,null,59,192,null,null],
+        13,
+        [16,13,14,null,63,192,null,null],
+        14,
+        [17,14,15,null,67,192,null,null],
+        15,
+        [18,15,16,null,71,192,null,null],
+        16,
+        [19,16,17,null,75,192,null,null],
+        17,
+        [20,17,18,null,79,192,null,null],
+        18,
+        [21,18,19,null,83,192,null,null],
+        19,
+        [22,19,20,null,87,192,null,null],
+        20,
+        [23,20,21,null,91,192,null,null],
+        21,
+        [24,21,22,null,95,192,null,null],
+        22,
+        [25,22,23,null,99,192,null,null],
+        23,
+        [26,23,24,null,103,192,null,null],
+        24,
+        [27,24,25,null,107,192,null,null],
+        25,
+        [28,25,26,null,111,192,null,null],
+        26,
+        [29,26,27,null,115,192,null,null],
+        27,
+        [30,27,28,null,119,192,null,null],
+        28,
+        [31,28,29,null,123,192,null,null],
+        29,
+        [32,29,30,null,127,192,null,null],
+        30,
+        [33,30,31,null,131,192,null,null],
+        31,
+        [34,31,32,null,135,192,null,null],
+        32,
+        [35,32,33,null,139,192,null,null],
+        33,
+        [36,33,34,null,143,192,null,null],
+        34,
+        [37,34,35,null,147,192,null,null],
+        35,
+        [38,35,36,null,151,192,null,null],
+        36,
+        [39,36,37,null,155,192,null,null],
+        37,
+        [40,37,38,null,159,192,null,null],
+        38,
+        [41,38,39,null,163,192,null,null],
+        39,
+        [42,39,40,null,167,192,null,null],
+        40,
+        [43,40,41,null,171,192,null,null],
+        41,
+        [44,41,42,null,175,192,null,null],
+        42,
+        [45,42,43,null,179,192,null,null],
+        43,
+        [46,43,44,null,183,192,null,null],
+        44,
+        [47,44,45,null,187,192,null,null],
+        45,
+        [48,45,46,null,191,192,null,null],
+        46,
+        [49,46,47,null,195,192,null,null],
+        47,
+        [50,47,48,null,199,192,null,null],
+        48,
+        [51,48,49,null,203,192,null,null],
+        49,
+        [52,49,50,null,207,192,null,null],
+        50,
+        [53,50,51,null,211,192,null,null],
+        51,
+        [54,51,52,null,215,192,null,null],
+        52,
+        [55,52,53,null,219,192,null,null],
+        53,
+        [56,53,54,null,223,192,null,null],
+        54,
+        [57,54,55,null,227,192,null,null],
+        55,
+        [58,55,56,null,231,192,null,null],
+        56,
+        [59,56,57,null,235,192,null,null],
+        57,
+        [60,57,58,null,239,192,null,null],
+        58,
+        [61,58,59,null,243,192,null,null],
+        59,
+        [62,59,60,null,247,192,null,null],
+        60,
+        [63,60,61,null,251,192,null,null],
+        61,
+        [64,61,62,null,255,192,null,null],
+        62,
+        [65,62,63,null,259,192,null,null],
+        63,
+        [66,63,64,null,263,192,null,null],
+        64,
+        [67,64,65,null,267,192,null,null],
+        65,
+        [68,65,66,null,271,192,null,null],
+        66,
+        [69,66,67,null,275,192,null,null],
+        67,
+        [70,67,68,null,279,192,null,null],
+        68,
+        [71,68,69,null,283,192,null,null],
+        69,
+        [72,69,70,null,287,192,null,null],
+        70,
+        [73,70,71,null,291,192,null,null],
+        71,
+        [74,71,72,null,295,192,null,null],
+        72,
+        [75,72,73,null,299,192,null,null],
+        73,
+        [76,73,74,null,303,192,null,null],
+        74,
+        [77,74,75,null,307,192,null,null],
+        75,
+        [78,75,76,null,311,192,null,null],
+        76,
+        [79,76,77,null,315,192,null,null],
+        77,
+        [80,77,78,null,319,192,null,null],
+        78,
+        [81,78,79,null,323,192,null,null],
+        79,
+        [82,79,80,null,327,192,null,null],
+        80,
+        [83,80,81,null,331,192,null,null],
+        81,
+        [84,81,82,null,335,192,null,null],
+        82,
+        [85,82,83,null,339,192,null,null],
+        83,
+        [86,83,84,null,343,192,null,null],
+        84,
+        [87,84,85,null,347,192,null,null],
+        85,
+        [88,85,86,null,351,192,null,null],
+        86,
+        [89,86,87,null,355,192,null,null],
+        87,
+        [90,87,88,null,359,192,null,null],
+        88,
+        [91,88,89,null,363,192,null,null],
+        89,
+        [92,89,90,null,367,192,null,null],
+        90,
+        [93,90,91,null,371,192,null,null],
+        91,
+        [94,91,92,null,375,192,null,null],
+        92,
+        [95,92,93,null,379,192,null,null],
+        93,
+        [96,93,94,null,383,192,null,null],
+        94,
+        [97,94,95,null,387,192,null,null],
+        95,
+        [98,95,96,null,391,192,null,null],
+        96,
+        [99,96,97,null,395,192,null,null],
+        97,
+        [100,97,98,null,399,192,null,null],
+        98,
+        [101,98,99,null,403,192,null,null],
+        99,
+        [102,99,null,null,403],
+        ["envupdate","wait",{"list":[{"mode":0,"name":"env"}]
+          }
+        ],
+        [103,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          403
+        ]
+      ],
+      "spCount": 103,
+      "texts": [
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",331,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5529,
+              "type": 0,
+              "voice": "PMAh_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",281,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4694,
+              "type": 0,
+              "voice": "PMAh_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",169,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2820,
+              "type": 0,
+              "voice": "PMAh_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",205,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3429,
+              "type": 0,
+              "voice": "PMAh_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",109,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1818,
+              "type": 0,
+              "voice": "PMAh_005"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",150,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2508,
+              "type": 0,
+              "voice": "PMAh_006"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",315,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5253,
+              "type": 0,
+              "voice": "PMAb_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",421,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 7022,
+              "type": 0,
+              "voice": "PMAb_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",117,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1966,
+              "type": 0,
+              "voice": "PMAb_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",352,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5872,
+              "type": 0,
+              "voice": "PMAb_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",453,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 7564,
+              "type": 0,
+              "voice": "PMAb_005"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",253,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4227,
+              "type": 0,
+              "voice": "PMAb_006"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",232,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3868,
+              "type": 0,
+              "voice": "PMAr_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",291,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4852,
+              "type": 0,
+              "voice": "PMAr_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",307,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5117,
+              "type": 0,
+              "voice": "PMAr_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",161,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2692,
+              "type": 0,
+              "voice": "PMAr_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",217,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3626,
+              "type": 0,
+              "voice": "PMAr_005"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",248,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4148,
+              "type": 0,
+              "voice": "PMAr_006"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",271,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4531,
+              "type": 0,
+              "voice": "PMAl_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",224,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3737,
+              "type": 0,
+              "voice": "PMAl_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",174,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2903,
+              "type": 0,
+              "voice": "PMAl_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",249,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4156,
+              "type": 0,
+              "voice": "PMAl_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",250,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4173,
+              "type": 0,
+              "voice": "PMAl_005"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",201,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3361,
+              "type": 0,
+              "voice": "PMAl_006"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",292,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4873,
+              "type": 0,
+              "voice": "PMAt_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",279,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4654,
+              "type": 0,
+              "voice": "PMAt_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",165,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2761,
+              "type": 0,
+              "voice": "PMAt_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",280,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4677,
+              "type": 0,
+              "voice": "PMAt_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",353,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5894,
+              "type": 0,
+              "voice": "PMAt_005"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",368,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 6144,
+              "type": 0,
+              "voice": "PMAt_006"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",312,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5207,
+              "type": 0,
+              "voice": "PMBh_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",223,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3728,
+              "type": 0,
+              "voice": "PMBh_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",281,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4689,
+              "type": 0,
+              "voice": "PMBh_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",204,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3400,
+              "type": 0,
+              "voice": "PMBh_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",167,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2791,
+              "type": 0,
+              "voice": "PMBh_005"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",226,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3767,
+              "type": 0,
+              "voice": "PMBb_001_re"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",192,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3213,
+              "type": 0,
+              "voice": "PMBb_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",254,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4235,
+              "type": 0,
+              "voice": "PMBb_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",347,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5791,
+              "type": 0,
+              "voice": "PMBb_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",542,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 9040,
+              "type": 0,
+              "voice": "PMBb_005"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",275,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4596,
+              "type": 0,
+              "voice": "PMBr_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",218,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3648,
+              "type": 0,
+              "voice": "PMBr_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",319,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5331,
+              "type": 0,
+              "voice": "PMBr_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",696,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 11603,
+              "type": 0,
+              "voice": "PMBr_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",406,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 6776,
+              "type": 0,
+              "voice": "PMBr_005"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",337,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5625,
+              "type": 0,
+              "voice": "PMBl_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",304,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5074,
+              "type": 0,
+              "voice": "PMBl_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",270,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4510,
+              "type": 0,
+              "voice": "PMBl_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",366,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 6116,
+              "type": 0,
+              "voice": "PMBl_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",311,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5184,
+              "type": 0,
+              "voice": "PMBl_005"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",349,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5818,
+              "type": 0,
+              "voice": "PMBt_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",119,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1987,
+              "type": 0,
+              "voice": "PMBt_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",333,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5559,
+              "type": 0,
+              "voice": "PMBt_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",264,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4400,
+              "type": 0,
+              "voice": "PMBt_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",165,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2762,
+              "type": 0,
+              "voice": "PMBt_005"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",238,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3978,
+              "type": 0,
+              "voice": "PMCh_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",225,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3760,
+              "type": 0,
+              "voice": "PMCh_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",351,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5856,
+              "type": 0,
+              "voice": "PMCh_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",357,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5957,
+              "type": 0,
+              "voice": "PMCh_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",302,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5034,
+              "type": 0,
+              "voice": "PMCb_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",178,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2972,
+              "type": 0,
+              "voice": "PMCb_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",154,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2568,
+              "type": 0,
+              "voice": "PMCb_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",215,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3584,
+              "type": 0,
+              "voice": "PMCb_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",285,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4765,
+              "type": 0,
+              "voice": "PMCr_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",321,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5350,
+              "type": 0,
+              "voice": "PMCr_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",253,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4217,
+              "type": 0,
+              "voice": "PMCr_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",385,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 6428,
+              "type": 0,
+              "voice": "PMCr_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",291,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4864,
+              "type": 0,
+              "voice": "PMCl_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",341,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5692,
+              "type": 0,
+              "voice": "PMCl_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",248,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4141,
+              "type": 0,
+              "voice": "PMCl_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",236,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3945,
+              "type": 0,
+              "voice": "PMCl_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",251,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4199,
+              "type": 0,
+              "voice": "PMCt_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",220,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3674,
+              "type": 0,
+              "voice": "PMCt_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",317,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5290,
+              "type": 0,
+              "voice": "PMCt_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",272,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4539,
+              "type": 0,
+              "voice": "PMCt_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",335,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5588,
+              "type": 0,
+              "voice": "PMD_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",226,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3770,
+              "type": 0,
+              "voice": "PMD_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",271,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4532,
+              "type": 0,
+              "voice": "PMD_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",156,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2604,
+              "type": 0,
+              "voice": "PMD_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",197,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3298,
+              "type": 0,
+              "voice": "PMD_005"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",367,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 6118,
+              "type": 0,
+              "voice": "PMD_006"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",407,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 6787,
+              "type": 0,
+              "voice": "PMD_007"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",202,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3379,
+              "type": 0,
+              "voice": "PMD_008"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",203,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3395,
+              "type": 0,
+              "voice": "PMD_009_re"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",143,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2387,
+              "type": 0,
+              "voice": "PMD_010"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",334,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5581,
+              "type": 0,
+              "voice": "PMD_011"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",254,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4247,
+              "type": 0,
+              "voice": "PMD_012"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",75,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1260,
+              "type": 0,
+              "voice": "PMD_013"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",183,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3052,
+              "type": 0,
+              "voice": "PMD_014"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",63,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1056,
+              "type": 0,
+              "voice": "PME_001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",50,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 840,
+              "type": 0,
+              "voice": "PME_002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",141,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2350,
+              "type": 0,
+              "voice": "PME_003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",115,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1929,
+              "type": 0,
+              "voice": "PME_004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",157,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2619,
+              "type": 0,
+              "voice": "PME_005"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",31,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 520,
+              "type": 0,
+              "voice": "PME_006"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",68,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1146,
+              "type": 0,
+              "voice": "PME_007"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",104,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1747,
+              "type": 0,
+              "voice": "PME_008"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",37,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 631,
+              "type": 0,
+              "voice": "PME_009"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…",[{"labels":[0,"vlstart",65,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1086,
+              "type": 0,
+              "voice": "PME_010"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ]
+      ],
+      "title": ""
+    }
+  ]
+}

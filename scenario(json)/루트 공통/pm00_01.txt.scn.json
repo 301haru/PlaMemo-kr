@@ -1,0 +1,699 @@
+{
+  "hash": "aaaba146f4cd032d4ceaa2cadecb3e23",
+  "name": "pm00_01.txt",
+  "outlines": [],
+  "scenes": [
+    {
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [
+        [1,{"data":[],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          6
+        ],
+        ["envupdate","update",[["init",0],
+            ["new","bgm","bgm"],
+            {
+              "action": [null],
+              "name": "env"
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 0,
+                "name": "env"
+              }
+            ]
+          }
+        ],
+        [2,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          6
+        ],
+        ["meswinload","page","both"],
+        [3,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          6
+        ],
+        ["envupdate","update",[["new","アイラ","character"],
+            ["new","ミチル","character"],
+            ["new","ザック","character"],
+            ["new","カヅキ","character"],
+            ["new","シェリー","character"],
+            ["new","コンスタンス","character"],
+            ["new","タカオ","character"],
+            ["new","レン","character"],
+            {
+              "name": "bgm",
+              "replay": {
+                "filename": "PM_BGM001",
+                "loop": 1,
+                "start": null,
+                "state": 1,
+                "volume": 50.0
+              },
+              "trans": {
+                "method": "",
+                "time": 0
+              }
+            }
+          ]
+        ],
+        ["msgoff"],
+        ["envupdate","wait",{"list":[{"mode":0,"name":"env"}]
+          }
+        ],
+        ["envupdate","update",[["del","アイラ"],
+            ["del","カヅキ"],
+            ["del","コンスタンス"],
+            ["del","ザック"],
+            ["del","シェリー"],
+            ["del","タカオ"],
+            ["del","ミチル"],
+            ["del","レン"]
+          ]
+        ],
+        "cg_アイラ.stand",
+        "cg_ミチル.stand",
+        "cg_ザック.stand",
+        "cg_カヅキ.stand",
+        "cg_シェリー.stand",
+        "cg_コンスタンス.stand",
+        "cg_タカオ.stand",
+        "cg_レン.stand",
+        "bgm_PM_BGM001",
+        [4,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          1,
+          null,
+          67,
+          192,
+          null,
+          null
+        ],
+        1,
+        [5,1,2,null,71,192,null,null],
+        2,
+        [6,2,3,null,75,192,null,null],
+        3,
+        [7,3,4,null,79,192,null,null],
+        4,
+        [8,4,5,null,83,192,null,null],
+        5,
+        [9,5,null,null,83],
+        ["envupdate","pretrans",[["new","ev","event"]
+          ],
+          "update",
+          [
+            {
+              "action": [
+                ["leveloffset",""],
+                ["zpos",-60.0],
+                null
+              ],
+              "class": "event",
+              "link": null,
+              "name": "ev",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pm_ev001a"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "bgcolor": -1,
+                "blacktrans": 1,
+                "msgoff": 1,
+                "time": "2000"
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":1,"name":"ev"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 1000.0
+            },
+            "bgcolor": -1,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 1000.0
+            },
+            "method": "crossfade",
+            "msgoff": 1,
+            "time": "2000"
+          },
+          "msgoff",
+          1
+        ],
+        "cg_pm_ev001a",
+        [10,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          6,
+          null,
+          90,
+          216,
+          null,
+          null
+        ],
+        6,
+        [11,6,7,null,94,200,null,null],
+        7,
+        [12,7,8,null,98,200,null,null],
+        8,
+        [13,8,9,null,102,200,null,null],
+        9,
+        [14,9,10,null,106,200,null,null],
+        10,
+        [15,10,11,null,110,200,null,null],
+        11,
+        [16,11,12,null,114,200,null,null],
+        12,
+        [17,12,13,null,118,200,null,null],
+        13,
+        [18,13,14,null,122,200,null,null],
+        14,
+        [19,14,null,null,122],
+        ["msgoff"],
+        ["envupdate","update",[{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":0,"volume":50.0},"trans":{"method":"","time":"4000"}}]
+        ],
+        [20,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          124
+        ],
+        ["envupdate","update",[{"name":"ev","showmode":2}],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 2000.0
+            },
+            "bgcolor": -1,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 2000.0
+            },
+            "method": "crossfade",
+            "msgoff": "true",
+            "time": "4000"
+          },
+          "msgoff",
+          1
+        ],
+        ["envupdate","update",[["del","ev"]
+          ]
+        ],
+        [21,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          126
+        ],
+        ["wait","time","1500","sync","true"],
+        [22,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          127
+        ]
+      ],
+      "nexts": [
+        {
+          "storage": "pm01_01.txt",
+          "type": 0
+        }
+      ],
+      "postevals": ["setScnEnd(0)"],
+      "preevals": ["initFlag0()"],
+      "spCount": 22,
+      "texts": [
+        [null,null,"もし、自分の命の時間が、あらかじめ決まっていたとしたら、俺ならどう受け止めるだろう。",[{"labels":[0,"vlstart",582,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 9711,
+              "type": 0,
+              "voice": "PM00_01_TSU0000"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"まだ、春の訪れにはほど遠い、冬の日の夜。",[{"labels":[0,"vlstart",291,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 4850,
+              "type": 0,
+              "voice": "PM00_01_TSU0001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"閉店間際のショッピングモール。ちょうど閉まりかけたそのエレベーターに、ほとんど滑り込むようにして乗り込んだのは――",[{"labels":[0,"vlstart",517,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 8624,
+              "type": 0,
+              "voice": "PM00_01_TSU0002"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"急遽決まった採用面接のために、なんとしてもその日のうちにスーツを買わなくちゃいけなかったからで。",[{"labels":[0,"vlstart",446,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 7446,
+              "type": 0,
+              "voice": "PM00_01_TSU0003"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"あと数秒でも遅れていれば、エレベーターの扉は閉まり、君と出会うことはなかったかもしれない。",[{"labels":[0,"vlstart",491,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 8199,
+              "type": 0,
+              "voice": "PM00_01_TSU0004"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"誰も乗っていないものだと思ったエレベーターの中。",[{"labels":[0,"vlstart",211,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 3523,
+              "type": 0,
+              "voice": "PM00_01_TSU0005"
+            }
+          ],
+          216,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"窓の外の、色鮮やかに輝く冬の街を背景にして。",[{"labels":[0,"vlstart",377,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 6291,
+              "type": 0,
+              "voice": "PM00_01_TSU0006"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"声も出さず静かに涙を流していた君が振り返ったのは――",[{"labels":[0,"vlstart",327,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 5451,
+              "type": 0,
+              "voice": "PM00_01_TSU0007"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺が君に気付いたのと、ほぼ同時だった。",[{"labels":[0,"vlstart",219,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 3658,
+              "type": 0,
+              "voice": "PM00_01_TSU0008"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"その銀色の髪も。",[{"labels":[0,"vlstart",113,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 1898,
+              "type": 0,
+              "voice": "PM00_01_TSU0009"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"泣き濡れた赤い瞳も。",[{"labels":[0,"vlstart",112,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 1868,
+              "type": 0,
+              "voice": "PM00_01_TSU0010"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"それまでの俺の人生で出会ったどんな人よりも神秘的で、儚くて。",[{"labels":[0,"vlstart",409,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 6832,
+              "type": 0,
+              "voice": "PM00_01_TSU0011"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"しばらくの間、目が離せなかった。",[{"labels":[0,"vlstart",232,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 3874,
+              "type": 0,
+              "voice": "PM00_01_TSU0012"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"このとき、俺はもう、名前も知らない君のことを、好きになっていたんだと思う――",[{"labels":[0,"vlstart",537,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 8955,
+              "type": 0,
+              "voice": "PM00_01_TSU0013"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM001","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev001a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ]
+      ],
+      "title": "「プロローグ」"
+    }
+  ]
+}

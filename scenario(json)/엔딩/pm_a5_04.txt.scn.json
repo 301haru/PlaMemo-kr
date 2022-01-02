@@ -1,0 +1,5128 @@
+{
+  "hash": "846d5f7b0aa53128339f2d95ad03b08e",
+  "name": "pm_a5_04.txt",
+  "outlines": [],
+  "scenes": [
+    {
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [
+        [1,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM037","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          6
+        ],
+        ["envupdate","update",[["init",0],
+            ["new","bgm","bgm"],
+            {
+              "action": [null],
+              "name": "env"
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 0,
+                "name": "env"
+              }
+            ]
+          }
+        ],
+        [2,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          6
+        ],
+        ["meswinload","page","both"],
+        [3,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          1,
+          null,
+          63,
+          192,
+          null,
+          null
+        ],
+        ["envupdate","update",[["new","アイラ","character"],
+            ["new","ミチル","character"],
+            ["new","ザック","character"],
+            ["new","カヅキ","character"],
+            ["new","シェリー","character"]
+          ]
+        ],
+        ["msgoff"],
+        "cg_アイラ.stand",
+        "cg_ミチル.stand",
+        "cg_ザック.stand",
+        "cg_カヅキ.stand",
+        "cg_シェリー.stand",
+        1,
+        [4,1,2,null,68,192,null,null],
+        ["envupdate","update",[["del","アイラ"],
+            ["del","カヅキ"],
+            ["del","ザック"],
+            ["del","シェリー"],
+            ["del","ミチル"]
+          ]
+        ],
+        2,
+        [5,2,3,null,73,192,null,null],
+        3,
+        [6,3,null,null,73],
+        ["envupdate","pretrans",[["new","bg","stage"]
+          ],
+          "update",
+          [
+            {
+              "action": [null,["zpos",233.33333333333337],
+                null,
+                ["leveloffset",""]
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0101na2"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "universal",
+                "msgoff": "true",
+                "rule": "map501b",
+                "time": "1500",
+                "vague": 300
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":1,"name":"bg"}]
+          },
+          "trans",
+          {
+            "method": "universal",
+            "msgoff": "true",
+            "rule": "map501b",
+            "time": "1500",
+            "vague": 300
+          },
+          "msgoff",
+          1
+        ],
+        [7,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          4,
+          null,
+          80,
+          208,
+          null,
+          null
+        ],
+        4,
+        [8,4,5,null,82,192,null,null],
+        5,
+        [9,5,6,null,87,192,null,null],
+        6,
+        [10,6,7,null,91,192,null,null],
+        7,
+        [11,7,8,null,93,192,null,null],
+        8,
+        [12,8,9,null,97,192,null,null],
+        9,
+        [13,9,10,null,102,192,null,null],
+        10,
+        [14,10,11,null,106,192,null,null],
+        11,
+        [15,11,null,null,106],
+        ["msgoff"],
+        ["envupdate","update",[["new","se","se"],
+            ["new","ev","event"],
+            {
+              "name": "se",
+              "replay": {
+                "filename": "PMSE_C011",
+                "start": null,
+                "time": 0,
+                "volume": 50.0
+              }
+            },
+            {
+              "action": [
+                ["leveloffset",""],
+                ["zpos",-60.0],
+                null
+              ],
+              "class": "event",
+              "link": null,
+              "name": "ev",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pm_ev032a"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 500
+          }
+        ],
+        "cg_pm_ev032a",
+        [16,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev032a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          12,
+          null,
+          118,
+          216,
+          null,
+          null
+        ],
+        12,
+        [17,12,13,null,123,200,null,null],
+        13,
+        [18,13,14,null,127,200,null,null],
+        14,
+        [19,14,15,null,132,200,null,null],
+        15,
+        [20,15,16,null,134,200,null,null],
+        16,
+        [21,16,17,null,136,200,null,null],
+        17,
+        [22,17,18,null,138,200,null,null],
+        18,
+        [23,18,19,null,142,200,null,null],
+        19,
+        [24,19,20,null,147,200,null,null],
+        20,
+        [25,20,21,null,149,200,null,null],
+        21,
+        [26,21,22,null,151,200,null,null],
+        22,
+        [27,22,null,null,151],
+        ["envupdate","update",[{"name":"ev","showmode":2},{"name":"bg","showmode":2}],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 1000.0
+            },
+            "bgcolor": -16777216,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 1000.0
+            },
+            "method": "crossfade",
+            "msgoff": "true",
+            "time": "2000"
+          },
+          "msgoff",
+          1
+        ],
+        ["envupdate","update",[["del","bg"],
+            ["del","ev"]
+          ]
+        ],
+        [28,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          154
+        ],
+        ["envupdate","pretrans",[["new","bg","stage"]
+          ],
+          "update",
+          [
+            {
+              "action": [null,["zpos",233.33333333333337],
+                null,
+                ["leveloffset",""]
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0101aa"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "universal",
+                "rule": "map501b",
+                "time": 1000,
+                "vague": 300
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":1,"name":"bg"}]
+          },
+          "trans",
+          {
+            "method": "universal",
+            "rule": "map501b",
+            "time": 1000,
+            "vague": 300
+          }
+        ],
+        [29,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          23,
+          null,
+          166,
+          208,
+          null,
+          null
+        ],
+        ["envupdate","update",[{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"trans":{"method":"","time":"500"}}]
+        ],
+        "bgm_PM_BGM007",
+        23,
+        [30,23,24,null,169,192,null,null],
+        24,
+        [31,24,25,null,171,192,null,null],
+        25,
+        [32,25,26,null,173,192,null,null],
+        26,
+        [33,26,null,null,173],
+        ["msgoff"],
+        ["envupdate","update",[["new","ev","event"],
+            {
+              "action": [
+                ["leveloffset",""],
+                ["zpos",-60.0],
+                null,
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":1000,"value":100}],
+                  1
+                ]
+              ],
+              "class": "event",
+              "link": null,
+              "name": "ev",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pm_ev033a"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "ev"
+              }
+            ]
+          }
+        ],
+        "cg_pm_ev033a",
+        [34,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          27,
+          null,
+          184,
+          216,
+          null,
+          null
+        ],
+        27,
+        [35,27,28,null,189,200,null,null],
+        28,
+        [36,28,29,null,194,200,null,null],
+        29,
+        [37,29,30,null,199,200,null,null],
+        30,
+        [38,30,31,null,204,200,null,null],
+        31,
+        [39,31,32,null,209,200,null,null],
+        32,
+        [40,32,33,null,214,200,null,null],
+        33,
+        [41,33,34,null,218,200,null,null],
+        34,
+        [42,34,35,null,222,200,null,null],
+        35,
+        [43,35,36,null,224,200,null,null],
+        36,
+        [44,36,37,null,229,200,null,null],
+        ["envupdate","update",[{"name":"se","replay":{"filename":"PMSE_C009","start":null,"time":0,"volume":50.0}}]
+        ],
+        37,
+        [45,37,38,null,235,200,null,null],
+        ["envupdate","update",[{"name":"se","stop":1000}]
+        ],
+        38,
+        [46,38,39,null,240,200,null,null],
+        39,
+        [47,39,40,null,244,200,null,null],
+        40,
+        [48,40,null,null,244],
+        ["envupdate","update",[{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"trans":{"method":"","time":"3000"}}]
+        ],
+        ["msgoff"],
+        [49,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          247
+        ],
+        ["envupdate","update",[{"name":"ev","showmode":2},{"name":"bg","showmode":2}],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 1000.0
+            },
+            "bgcolor": -16777216,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 1000.0
+            },
+            "method": "crossfade",
+            "msgoff": 1,
+            "time": "2000"
+          },
+          "msgoff",
+          1
+        ],
+        ["envupdate","update",[["del","bg"],
+            ["del","ev"]
+          ]
+        ],
+        [50,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          249
+        ],
+        ["envupdate","update",[["new","bg","stage"],
+            {
+              "action": [null,["zpos",233.33333333333337],
+                null,
+                ["leveloffset",""],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":1000,"value":100}],
+                  1
+                ]
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0100aa"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "bg"
+              }
+            ]
+          }
+        ],
+        [51,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          41,
+          null,
+          258,
+          208,
+          null,
+          null
+        ],
+        41,
+        [52,41,42,null,260,192,null,null],
+        42,
+        [53,42,null,null,260],
+        ["envupdate","update",[["new","アイラ","character"],
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",0],
+                ["xpos",0],
+                ["$lip","$lipアイラ"],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":300,"value":100}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "アイラ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": [
+                  {
+                    "eval": "f.costume==4",
+                    "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                    "options": {
+                      "face": "目_微笑み:口_通常"
+                    }
+                  },
+                  {
+                    "eval": "f.costume==5",
+                    "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                    "options": {
+                      "face": "目_微笑み:口_通常"
+                    }
+                  },
+                  {
+                    "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                    "options": {
+                      "face": "目_微笑み:口_通常"
+                    }
+                  }
+                ],
+                "posName": "中"
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "アイラ"
+              }
+            ]
+          }
+        ],
+        "cg_アイラ.stand",
+        [54,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          43,
+          null,
+          266,
+          192,
+          null,
+          null
+        ],
+        43,
+        [55,43,44,null,270,192,null,null],
+        44,
+        [56,44,45,null,272,192,null,null],
+        45,
+        [57,45,46,null,276,192,null,null],
+        46,
+        [58,46,47,null,281,192,null,null],
+        ["envupdate","update",[{"action":[["xpos",0],
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",0],
+                ["$lip","$lipアイラ"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "アイラ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": [
+                  {
+                    "eval": "f.costume==4",
+                    "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                    "options": {
+                      "face": "目_微笑み:口_微笑み"
+                    }
+                  },
+                  {
+                    "eval": "f.costume==5",
+                    "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                    "options": {
+                      "face": "目_微笑み:口_微笑み"
+                    }
+                  },
+                  {
+                    "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                    "options": {
+                      "face": "目_微笑み:口_微笑み"
+                    }
+                  }
+                ],
+                "posName": "前"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        47,
+        [59,47,48,null,285,192,null,null],
+        48,
+        [60,48,49,null,290,192,null,null],
+        ["envupdate","update",[{"action":[null,["ypos",0],
+                ["zpos",0.0],
+                ["order",0],
+                ["xpos",0],
+                ["$lip","$lipアイラ"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "アイラ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": [
+                  {
+                    "eval": "f.costume==4",
+                    "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                    "options": {
+                      "face": "目_笑顔:口_笑顔"
+                    }
+                  },
+                  {
+                    "eval": "f.costume==5",
+                    "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                    "options": {
+                      "face": "目_笑顔:口_笑顔"
+                    }
+                  },
+                  {
+                    "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                    "options": {
+                      "face": "目_笑顔:口_笑顔"
+                    }
+                  }
+                ],
+                "posName": "中"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        49,
+        [61,49,50,null,294,192,null,null],
+        50,
+        [62,50,51,null,299,192,null,null],
+        51,
+        [63,51,52,null,303,192,null,null],
+        52,
+        [64,52,53,null,308,192,null,null],
+        ["envupdate","update",[{"action":[null,["ypos",0],
+                ["zpos",0.0],
+                ["order",0],
+                ["xpos",0],
+                ["$lip","$lipアイラ"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "アイラ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": [
+                  {
+                    "eval": "f.costume==4",
+                    "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                    "options": {
+                      "face": "目_微笑み:口_通常"
+                    }
+                  },
+                  {
+                    "eval": "f.costume==5",
+                    "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                    "options": {
+                      "face": "目_微笑み:口_通常"
+                    }
+                  },
+                  {
+                    "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                    "options": {
+                      "face": "目_微笑み:口_通常"
+                    }
+                  }
+                ],
+                "posName": "中"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        53,
+        [65,53,54,null,310,192,null,null],
+        54,
+        [66,54,55,null,312,192,null,null],
+        55,
+        [67,55,56,null,314,192,null,null],
+        56,
+        [68,56,57,null,318,192,null,null],
+        57,
+        [69,57,58,null,322,192,null,null],
+        ["envupdate","update",[{"action":[null,["ypos",0],
+                ["zpos",0.0],
+                ["order",0],
+                ["xpos",0],
+                ["$lip","$lipアイラ"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "アイラ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": [
+                  {
+                    "eval": "f.costume==4",
+                    "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                    "options": {
+                      "face": "目_笑顔:口_笑顔"
+                    }
+                  },
+                  {
+                    "eval": "f.costume==5",
+                    "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                    "options": {
+                      "face": "目_笑顔:口_笑顔"
+                    }
+                  },
+                  {
+                    "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                    "options": {
+                      "face": "目_笑顔:口_笑顔"
+                    }
+                  }
+                ],
+                "posName": "中"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        58,
+        [70,58,null,null,322],
+        ["envupdate","update",[{"name":"アイラ","showmode":2},{"name":"bg","showmode":2}],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 1000.0
+            },
+            "bgcolor": -16777216,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 1000.0
+            },
+            "method": "crossfade",
+            "msgoff": "true",
+            "time": "2000"
+          },
+          "msgoff",
+          1
+        ],
+        ["envupdate","update",[["del","bg"],
+            ["del","アイラ"]
+          ]
+        ],
+        [71,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          325
+        ],
+        ["envupdate","update",[["new","bg","stage"],
+            {
+              "action": [null,["zpos",233.33333333333337],
+                null,
+                ["leveloffset",""],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":1000,"value":100}],
+                  1
+                ]
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0003aa"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "bg"
+              }
+            ]
+          }
+        ],
+        [72,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0003aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          59,
+          null,
+          336,
+          208,
+          null,
+          null
+        ],
+        59,
+        [73,59,60,null,338,192,null,null],
+        60,
+        [74,60,61,null,341,192,null,null],
+        61,
+        [75,61,62,null,343,192,null,null],
+        62,
+        [76,62,63,null,345,192,null,null],
+        63,
+        [77,63,null,null,345],
+        ["envupdate","update",[["new","カヅキ","character"],
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",0],
+                ["xpos",0],
+                ["$lip","$lipカヅキ"],
+                ["visvalue",[{"handler":"MoveAction","time":0,"value":"0"},{"accel":-1,"handler":"MoveAction","time":500,"value":"100"}],
+                  1
+                ],
+                ["xpos",[{"handler":"MoveAction","time":0,"value":"@-15"},{"accel":-1,"handler":"MoveAction","time":500,"value":"@"}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "カヅキ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "カヅキ_c03b59ac1b0be2f5c790f7a9f68e5eab",
+                  "options": {
+                    "face": "目_通常:口_通常"
+                  }
+                },
+                "posName": "出右"
+              },
+              "showmode": 1,
+              "trans": {
+                "sync": 1,
+                "time": 500
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "カヅキ"
+              }
+            ]
+          }
+        ],
+        "cg_カヅキ.stand",
+        [78,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0003aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_c03b59ac1b0be2f5c790f7a9f68e5eab",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "出右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          64,
+          null,
+          350,
+          192,
+          null,
+          null
+        ],
+        64,
+        [79,64,65,null,352,192,null,null],
+        65,
+        [80,65,null,null,352],
+        ["envupdate","update",[{"name":"カヅキ","showmode":2},{"name":"bg","showmode":2}],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 750.0
+            },
+            "bgcolor": -16777216,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 750.0
+            },
+            "method": "crossfade",
+            "msgoff": "true",
+            "time": "1500"
+          },
+          "msgoff",
+          1
+        ],
+        ["envupdate","update",[["del","bg"],
+            ["del","カヅキ"]
+          ]
+        ],
+        [81,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          355
+        ],
+        ["envupdate","update",[["new","bg","stage"],
+            {
+              "action": [null,["zpos",233.33333333333337],
+                null,
+                ["leveloffset",""],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":1000,"value":100}],
+                  1
+                ]
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0006aa"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "bg"
+              }
+            ]
+          }
+        ],
+        [82,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0006aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          66,
+          null,
+          367,
+          208,
+          null,
+          null
+        ],
+        ["envupdate","update",[["new","カヅキ","character"],
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",-33.333333333333329],
+                ["order",0],
+                ["xpos",0],
+                ["$lip","$lipカヅキ"],
+                ["xpos",[{"handler":"wait","speed":0.6}],
+                  1
+                ],
+                ["ypos",[{"angvel":null,"cycle":1200,"delay":null,"handler":"SinAction","speed":0.6,"time":600.0,"vibration":-10}],
+                  1
+                ],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":300,"value":100}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "カヅキ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "カヅキ_fb69c2cb84189830a9bd809708920c87",
+                  "options": {
+                    "face": "目_通常:口_通常",
+                    "resolution": 150.0
+                  }
+                },
+                "posName": "中"
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "time": 300
+              },
+              "type": null
+            }
+          ]
+        ],
+        "cg_カヅキ.stand",
+        66,
+        [83,66,67,null,369,192,null,null],
+        67,
+        [84,67,68,null,373,192,null,null],
+        68,
+        [85,68,69,null,375,192,null,null],
+        69,
+        [86,69,70,null,377,192,null,null],
+        70,
+        [87,70,71,null,379,192,null,null],
+        71,
+        [88,71,72,null,383,192,null,null],
+        72,
+        [89,72,null,null,383],
+        ["msgoff"],
+        ["envupdate","update",[["new","ev","event"],
+            {
+              "name": "カヅキ",
+              "showmode": 2
+            },
+            {
+              "action": [
+                ["leveloffset",""],
+                ["zpos",-60.0],
+                null
+              ],
+              "class": "event",
+              "link": null,
+              "name": "ev",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pm_ev034a"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            },
+            {
+              "name": "bg",
+              "showmode": 2
+            },
+            {
+              "name": "bgm",
+              "replay": {
+                "filename": "PM_BGM034",
+                "loop": 1,
+                "start": null,
+                "state": 1,
+                "volume": 50.0
+              }
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 1000
+          }
+        ],
+        ["envupdate","update",[["del","bg"],
+            ["del","カヅキ"]
+          ]
+        ],
+        "cg_pm_ev034a",
+        "bgm_PM_BGM034",
+        [90,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev034a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          73,
+          null,
+          395,
+          216,
+          null,
+          null
+        ],
+        73,
+        [91,73,74,null,397,200,null,null],
+        74,
+        [92,74,75,null,401,200,null,null],
+        75,
+        [93,75,76,null,405,200,null,null],
+        76,
+        [94,76,77,null,409,200,null,null],
+        77,
+        [95,77,78,null,411,200,null,null],
+        78,
+        [96,78,79,null,413,200,null,null],
+        79,
+        [97,79,80,null,415,200,null,null],
+        80,
+        [98,80,81,null,419,200,null,null],
+        81,
+        [99,81,82,null,423,200,null,null],
+        82,
+        [100,82,83,null,425,200,null,null],
+        83,
+        [101,83,null,null,425],
+        ["envupdate","update",[{"name":"se","stop":3000}]
+        ],
+        ["envupdate","update",[{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":0,"volume":50.0},"trans":{"method":"","time":"3000"}}]
+        ],
+        [102,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          429
+        ],
+        ["envupdate","update",[{"name":"ev","showmode":2}],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 1250.0
+            },
+            "bgcolor": -16777216,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 1250.0
+            },
+            "method": "crossfade",
+            "msgoff": "true",
+            "time": "2500"
+          },
+          "msgoff",
+          1
+        ],
+        ["envupdate","update",[["del","ev"]
+          ]
+        ],
+        [103,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          431
+        ],
+        ["wait","time","1000","sync","true"],
+        [104,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          432
+        ]
+      ],
+      "nexts": [
+        {
+          "storage": "pm_a5_04.txt",
+          "target": "*diary_A5_04",
+          "type": 0
+        }
+      ],
+      "postevals": ["setScnEnd(87)"],
+      "preevals": ["f.costume=0"],
+      "spCount": 104,
+      "texts": [
+        ["アイラ",null,"…………",[{"labels":[0,"vlstart",190,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3178,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0000",
+              "vols": [0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,2,2,2,2,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"ツカサ……",[{"labels":[0,"vlstart",115,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1928,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0001",
+              "vols": [0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,2,2,1,0,0,0,1,1,2,2,2,1,1,1,2,2,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,0,0,1,1,1,0,0,0,0,0,1,1,1,2,2,2,2,2,2,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"ツカサ",[{"labels":[0,"vlstart",71,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1184,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0002",
+              "vols": [0,0,0,0,1,1,1,1,2,2,2,1,0,0,0,0,1,1,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"アイラの、泣きじゃくる声がして。",null,208,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺は、目を覚ました。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"うぅ……うっ……ぐすっ",[{"labels":[0,"vlstart",249,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4154,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0003",
+              "vols": [0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"アイラ……？",[{"labels":[0,"vlstart",43,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 726,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0000"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"見ると、アイラが俺のベッドのすぐ横に立って、子供みたいに泣きじゃくっている。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"どうしたの！？",[{"labels":[0,"vlstart",51,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 856,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"怖いの。一人でいるの、やだ……",[{"labels":[0,"vlstart",327,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5452,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0004",
+              "vols": [0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,2,2,1,1,1,0,0,1,1,2,2,1,1,1,1,1,2,2,2,2,1,1,1,2,2,2,2,1,1,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,1,1,1,2,2,1,1,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…………っ",[{"labels":[0,"vlstart",33,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 552,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0005",
+              "vols": [0,1,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"アイラが、俺の胸に飛び込んできた。しがみつくようにして、声を殺して泣き続ける。",null,216,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev032a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"ツカサは、まだいるよね？",[{"labels":[0,"vlstart",182,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3049,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0006",
+              "vols": [0,0,0,1,1,1,1,2,2,2,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,1,1,1,2,2,2,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev032a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"アイラ……",[{"labels":[0,"vlstart",50,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 845,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0002"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev032a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"そばに、いるよね？",[{"labels":[0,"vlstart",98,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1639,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0007",
+              "vols": [0,0,0,0,0,1,1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,0,0,0,0,0,0,0]
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev032a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"これまで、アイラがそんな弱々しい姿を見せたことはなかった。",null,200,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev032a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"穏やかで、日々を楽しく過ごしているように見えていたけど、それはあくまで表向きのことで。",null,200,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev032a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"きっと心の内では、いろんな葛藤や、苦悩があったに違いない。",null,200,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev032a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"ああ、いるよ。ここにいる",[{"labels":[0,"vlstart",325,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 5424,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0003"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev032a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"どこにも、いかないで……",[{"labels":[0,"vlstart",150,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2509,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0008",
+              "vols": [0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,2,2,2,2,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0]
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev032a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺は、子供をあやすようにアイラを優しく抱きしめた。",null,200,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev032a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"この小さな身体を、離したくなかった。",null,200,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101na2"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev032a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"ん……",[{"labels":[0,"vlstart",198,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 3301,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0004"
+            }
+          ],
+          208,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"気が付いたら眠っていたみたいだ。\\n窓の外はすでに明るくなっている。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"ずっと眠らずに、アイラを抱きしめていようと思ったんだけど。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺の胸の中で、アイラももう目を覚ましていた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…………",[{"labels":[0,"vlstart",57,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 959,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0009",
+              "vols": [0,0,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          216,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"おはよう",[{"labels":[0,"vlstart",58,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 977,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0010",
+              "vols": [0,1,1,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0]
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"うん。おはよう",[{"labels":[0,"vlstart",104,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 1745,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0005"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"ずっと、ツカサの胸の音、聞いてた",[{"labels":[0,"vlstart",241,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4019,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0011",
+              "vols": [0,0,1,1,1,1,1,2,2,1,1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,1,0,0,1,1,1,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,0,0,0,1,2,2,2,2,2,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,2,2,2,2,2,1,0,0,0,1,1,2,2,2,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"聞こえるものなの？",[{"labels":[0,"vlstart",62,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 1047,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0006"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"聞こえるよ。とくん、とくん、って",[{"labels":[0,"vlstart",253,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4217,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0012",
+              "vols": [0,0,1,1,1,1,1,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,1,1,0,0,0,0,0,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,1,0,0,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"そっか",[{"labels":[0,"vlstart",31,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 520,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0007"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…………",[{"labels":[0,"vlstart",120,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2000,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0013",
+              "vols": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"…………",[{"labels":[0,"vlstart",120,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 2000,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0008"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"そのまま見つめ合っていたら。",null,200,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺のお腹が鳴った。",null,200,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"あはは……",[{"labels":[0,"vlstart",91,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 1533,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0009"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"お腹すいた？",[{"labels":[0,"vlstart",78,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1306,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0014",
+              "vols": [0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,0,1,1,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,1,0,0,0,0,1,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"うん。朝ごはん、作るよ",[{"labels":[0,"vlstart",158,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 2637,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0010"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0101aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev033a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"手早く、ふたり分の目玉焼きを作った。その間にアイラが、トーストを焼きつつハーブティーを用意してくれる。",null,208,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"準備ができると、ふたりでテーブルを挟んで座り、手を合わせた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"いただきます",[{"labels":[0,"vlstart",56,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 946,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0011"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"いただきます",[{"labels":[0,"vlstart",63,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 1050,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0015",
+              "vols": [0,0,1,1,1,1,1,0,0,0,0,2,2,2,2,2,1,1,2,2,2,2,2,1,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"今朝のアイラには、いつもと変わった様子は見られない。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"どう？　前よりもうまく作れたと思うんだけど",[{"labels":[0,"vlstart",227,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 3786,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0012"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"うん。上出来。日頃の積み重ねの成果だね",[{"labels":[0,"vlstart",283,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 4724,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0016",
+              "vols": [0,0,0,1,1,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,1,0,0,0,0,1,1,1,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,0,0,1,1,2,2,2,2,1,1,1,1,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_微笑み:口_微笑み"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_微笑み:口_微笑み"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_微笑み:口_微笑み"
+                        }
+                      }
+                    ],
+                    "posName": "前"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"やればできる子なんだよ、俺は",[{"labels":[0,"vlstart",130,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 2168,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0013"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_微笑み:口_微笑み"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_微笑み:口_微笑み"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_微笑み:口_微笑み"
+                        }
+                      }
+                    ],
+                    "posName": "前"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"ふふっ",[{"labels":[0,"vlstart",43,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 730,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0017",
+              "vols": [0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"ははは",[{"labels":[0,"vlstart",94,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 1576,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0014"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"…………",[{"labels":[0,"vlstart",50,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 845,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0015"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"アイラ、あのさ",[{"labels":[0,"vlstart",122,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 2038,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0016"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"……？",[{"labels":[0,"vlstart",43,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 718,
+              "type": 0,
+              "voice": "PM_A5_04_ISL0018",
+              "vols": [0,0,0,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺の呼びかけに、アイラはトーストをかじりながら小首を傾げた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"そのきょとんとした顔を見ていたら。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"昨日の夜の泣きじゃくっていた姿や、俺の胸の中で肩を震わせている感触が、全部、夢か幻だったんじゃないかって思えちゃって。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"あ、いや、なんでもない",[{"labels":[0,"vlstart",137,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 2285,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0017"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_微笑み:口_通常"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"だから俺も、それ以上は踏み込まなかった。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["アイラ","character",{"action":[["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": [
+                      {
+                        "eval": "f.costume==4",
+                        "file": "アイラ_4e62fff3ff332e430a3dfd3943bfd6a4",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      },
+                      {
+                        "eval": "f.costume==5",
+                        "file": "アイラ_cefcc72441e21842250501eff2465d5e",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      },
+                      {
+                        "file": "アイラ_87ad8aa774e6be29e51c570e21ca2847",
+                        "options": {
+                          "face": "目_笑顔:口_笑顔"
+                        }
+                      }
+                    ],
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"ふう……",[{"labels":[0,"vlstart",93,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 1553,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0018"
+            }
+          ],
+          208,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0003aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"会社に出てきても、俺たちにはもうほとんど仕事はなかった。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0003aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"担当している回収案件はすでに一件もない。\\n他の人の事務仕事を手伝ってはいるけど、それだってそもそもレンさんがいるから、やれることは少ない。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0003aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"ただ、こうして出勤するっていうルーティーンを、俺は大切にしていた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0003aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"これこそがアイラと約束したこと――最後までいつも通りでいたい――だから。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0003aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["カヅキ",null,"ツカサ。ちょっといいか",[{"labels":[0,"vlstart",127,"vlstop"],
+              "name": "カヅキ",
+              "pan": 0,
+              "time": 2117,
+              "type": 0,
+              "voice": "PM_A5_04_KAD0000",
+              "vols": [1,1,1,1,1,1,1,1,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,1,1,0,0,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0003aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_c03b59ac1b0be2f5c790f7a9f68e5eab",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "出右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"そんなことを考えつつ雑用をこなしていたら、カヅキさんに呼ばれた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0003aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_c03b59ac1b0be2f5c790f7a9f68e5eab",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "出右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"カヅキさんは、黙ってファイルを差し出してきた。",null,208,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0006aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["zpos",-33.333333333333329]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_fb69c2cb84189830a9bd809708920c87",
+                      "options": {
+                        "face": "目_通常:口_通常",
+                        "resolution": 150.0
+                      }
+                    },
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"いつも毎週のミーティングで渡される、回収案件についての情報がまとめられたファイルと同じものだ。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0006aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["zpos",-33.333333333333329]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_fb69c2cb84189830a9bd809708920c87",
+                      "options": {
+                        "face": "目_通常:口_通常",
+                        "resolution": 150.0
+                      }
+                    },
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"……？",[{"labels":[0,"vlstart",23,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 393,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0019"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0006aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["zpos",-33.333333333333329]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_fb69c2cb84189830a9bd809708920c87",
+                      "options": {
+                        "face": "目_通常:口_通常",
+                        "resolution": 150.0
+                      }
+                    },
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"このタイミングで、俺とアイラに新しい回収案件の仕事を回してくれるなんて、あるはずがない。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0006aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["zpos",-33.333333333333329]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_fb69c2cb84189830a9bd809708920c87",
+                      "options": {
+                        "face": "目_通常:口_通常",
+                        "resolution": 150.0
+                      }
+                    },
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"じゃあ、なんだろう？",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0006aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["zpos",-33.333333333333329]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_fb69c2cb84189830a9bd809708920c87",
+                      "options": {
+                        "face": "目_通常:口_通常",
+                        "resolution": 150.0
+                      }
+                    },
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"疑問に思いつつ、ファイルの中身を確認してみた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0006aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["zpos",-33.333333333333329]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_fb69c2cb84189830a9bd809708920c87",
+                      "options": {
+                        "face": "目_通常:口_通常",
+                        "resolution": 150.0
+                      }
+                    },
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"……！",[{"labels":[0,"vlstart",28,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 469,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0020"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0006aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}],
+              ["カヅキ","character",{"action":[["$lip","$lipカヅキ"],
+                    ["zpos",-33.333333333333329]
+                  ],
+                  "class": "character",
+                  "name": "カヅキ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "カヅキ_fb69c2cb84189830a9bd809708920c87",
+                      "options": {
+                        "face": "目_通常:口_通常",
+                        "resolution": 150.0
+                      }
+                    },
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"それは、確かに回収同意書だった。",null,216,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev034a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"回収対象の名は……アイラ。",null,200,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev034a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"これは……",[{"labels":[0,"vlstart",43,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 729,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0021"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev034a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["カヅキ",null,"アイラの、回収同意書だ。サインは、お前がするんだ",[{"labels":[0,"vlstart",311,"vlstop"],
+              "name": "カヅキ",
+              "pan": 0,
+              "time": 5192,
+              "type": 0,
+              "voice": "PM_A5_04_KAD0001",
+              "vols": [0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,1,1,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev034a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"…………",[{"labels":[0,"vlstart",63,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 1064,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0022"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev034a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺が……サインを……。",null,200,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev034a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"唐突に、これまで回収する側だった自分が、回収される側になったのだという事実を実感した。",null,200,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev034a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"実質的に、回収対象であるアイラの“所有者”は、俺ということになる。",null,200,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev034a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["カヅキ",null,"任せたからな。お前はしばらく、アイラのことに集中してくれ",[{"labels":[0,"vlstart",322,"vlstop"],
+              "name": "カヅキ",
+              "pan": 0,
+              "time": 5375,
+              "type": 0,
+              "voice": "PM_A5_04_KAD0002",
+              "vols": [0,1,1,2,2,2,2,2,2,2,1,1,1,2,2,2,2,1,1,1,1,2,2,1,1,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,1,1,1,1,1,1,1,2,2,2,1,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev034a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"……はい",[{"labels":[0,"vlstart",106,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 1773,
+              "type": 0,
+              "voice": "PM_A5_04_TSU0023"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev034a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"ファイルを握りしめたまま、俺は、うなずくしかなかった。",null,200,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_ev034a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ]
+      ],
+      "title": "「君の見せた涙」"
+    },
+    {
+      "firstLine": 437,
+      "label": "*diary_A5_04",
+      "lines": [
+        [1,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM034","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          454
+        ]
+      ],
+      "nexts": [
+        {
+          "eval": "f.isla >= 21 && f.true_end == 1",
+          "storage": "pm_a03_01.txt",
+          "type": 0
+        },
+        {
+          "eval": "f.isla >= 8",
+          "storage": "pm_a02_01.txt",
+          "type": 0
+        },
+        {
+          "storage": "pm_a04_01.txt",
+          "type": 0
+        }
+      ],
+      "spCount": 1,
+      "title": "「君の見せた涙」"
+    }
+  ]
+}

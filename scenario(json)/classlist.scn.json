@@ -1,0 +1,396 @@
+{
+  "list": [
+    {
+      "cameraMode": 65,
+      "flag": 0,
+      "initProps": {},
+      "match": {
+        "MatchInfo": {},
+        "getInfo": {},
+        "init": {},
+        "isExist": {},
+        "map": {},
+        "matchList": [
+          {
+            "func": {},
+            "name": {
+              "RegExp": {},
+              "_compile": {},
+              "compile": {},
+              "exec": {},
+              "finalize": {},
+              "index": {},
+              "input": {},
+              "lastIndex": {},
+              "lastMatch": {},
+              "lastParen": {},
+              "leftContext": {},
+              "match": {},
+              "matches": {},
+              "replace": {},
+              "rightContext": {},
+              "split": {},
+              "start": {},
+              "test": {}
+            }
+          }
+        ]
+      },
+      "matchList": [
+        {
+          "func": {},
+          "name": {
+            "RegExp": {},
+            "_compile": {},
+            "compile": {},
+            "exec": {},
+            "finalize": {},
+            "index": {},
+            "input": {},
+            "lastIndex": {},
+            "lastMatch": {},
+            "lastParen": {},
+            "leftContext": {},
+            "match": {},
+            "matches": {},
+            "replace": {},
+            "rightContext": {},
+            "split": {},
+            "start": {},
+            "test": {}
+          }
+        },
+        null
+      ],
+      "msgwinMode": 0,
+      "name": "layer",
+      "resetProps": {},
+      "rightHandMode": 1,
+      "shiftMode": 1,
+      "type": "dlayer",
+      "zorderMove": 0,
+      "zorderZoom": 0
+    },
+    {
+      "cameraMode": 79,
+      "msgwinMode": 0,
+      "name": "zlayer",
+      "rightHandMode": 1,
+      "shiftMode": 1,
+      "type": "dlayer",
+      "zorderMove": 1,
+      "zorderZoom": 1
+    },
+    {
+      "cameraMode": 79,
+      "dispTrans": {
+        "method": "",
+        "time": 300
+      },
+      "dressTrans": {
+        "method": "",
+        "time": 300
+      },
+      "faceTrans": {
+        "method": "",
+        "time": 300
+      },
+      "fadeValue": 300,
+      "flag": 772,
+      "imageAction": {},
+      "initProps": {
+        "originx": 0,
+        "originy": 0
+      },
+      "msgwinMode": 0,
+      "name": "character",
+      "poseTrans": {
+        "method": "",
+        "time": 300
+      },
+      "rightHandMode": 1,
+      "shiftMode": 1,
+      "trans": {
+        "method": "",
+        "time": 300
+      },
+      "type": "dlayer",
+      "zorderMove": 1,
+      "zorderZoom": 1
+    },
+    {
+      "cameraMode": 79,
+      "dispTrans": {
+        "method": "",
+        "time": 300
+      },
+      "dressTrans": {
+        "method": "",
+        "time": 300
+      },
+      "faceTrans": {
+        "method": "",
+        "time": 300
+      },
+      "fadeValue": 300,
+      "flag": 772,
+      "imageAction": {},
+      "initProps": {
+        "originx": 0,
+        "originy": 0
+      },
+      "msgwinMode": 0,
+      "name": "bu",
+      "parent": "character",
+      "poseTrans": {
+        "method": "",
+        "time": 300
+      },
+      "rightHandMode": 1,
+      "shiftMode": 1,
+      "trans": {
+        "method": "",
+        "time": 300
+      },
+      "type": "dlayer",
+      "zorderMove": 1,
+      "zorderZoom": 1
+    },
+    {
+      "cameraMode": 79,
+      "dispTrans": {
+        "method": "",
+        "time": 300
+      },
+      "dressTrans": {
+        "method": "",
+        "time": 300
+      },
+      "faceTrans": {
+        "method": "",
+        "time": 300
+      },
+      "fadeValue": 300,
+      "flag": 260,
+      "imageAction": {},
+      "initProps": {
+        "order": 3
+      },
+      "msgwinMode": 0,
+      "name": "emotion",
+      "parent": "character",
+      "poseTrans": {
+        "method": "",
+        "time": 300
+      },
+      "rightHandMode": 1,
+      "shiftMode": 1,
+      "trans": {
+        "method": "",
+        "time": 300
+      },
+      "type": "dlayer",
+      "zorderMove": 1,
+      "zorderZoom": 1
+    },
+    {
+      "absoluteBase": 1000001,
+      "cameraMode": 80,
+      "dispTrans": {
+        "method": "",
+        "time": 300
+      },
+      "exclusive": 1,
+      "flag": 8196,
+      "initProps": {
+        "originx": -450,
+        "originy": 300
+      },
+      "msgwinMode": 1,
+      "name": "msgwin",
+      "resetProps": {
+        "xpos": 0,
+        "ypos": 0,
+        "zoom": 70,
+        "zpos": 0
+      },
+      "rightHandMode": 1,
+      "shiftMode": 0,
+      "trans": {
+        "method": "",
+        "time": 300
+      },
+      "type": "layer",
+      "zorderMove": 0,
+      "zorderZoom": 0
+    },
+    {
+      "cameraMode": 71,
+      "dispTrans": "normal",
+      "flag": 322,
+      "msgwinMode": 0,
+      "name": "stage",
+      "rightHandMode": 1,
+      "shiftMode": 1,
+      "trans": "normal",
+      "type": "dlayer",
+      "zorderMove": 1,
+      "zorderZoom": 0
+    },
+    {
+      "cameraMode": 67,
+      "dispTrans": "normal",
+      "flag": 65,
+      "initProps": {
+        "level": 4
+      },
+      "msgwinMode": 0,
+      "name": "event",
+      "rightHandMode": 1,
+      "shiftMode": 1,
+      "trans": "normal",
+      "type": "layer",
+      "zorderMove": 0,
+      "zorderZoom": 0
+    },
+    {
+      "cameraMode": 65,
+      "create": 1,
+      "dispTrans": {
+        "method": "",
+        "time": 500
+      },
+      "flag": 0,
+      "initProps": {
+        "level": 5
+      },
+      "msgwinMode": 0,
+      "name": "effect",
+      "rightHandMode": 1,
+      "shiftMode": 1,
+      "trans": {
+        "method": "",
+        "time": 500
+      },
+      "type": "layer",
+      "zorderMove": 0,
+      "zorderZoom": 0
+    },
+    {
+      "cameraMode": 67,
+      "dispTrans": "normal",
+      "flag": 0,
+      "initProps": {
+        "level": 5
+      },
+      "msgwinMode": 0,
+      "name": "movie",
+      "rightHandMode": 1,
+      "shiftMode": 1,
+      "trans": "normal",
+      "type": "layer",
+      "zorderMove": 0,
+      "zorderZoom": 0
+    },
+    {
+      "eventFlag": 0,
+      "loop": 1,
+      "name": "bgm",
+      "playTrans": "start",
+      "saveFlag": "true",
+      "stopTrans": "normal",
+      "trans": "start",
+      "type": "music",
+      "volume": 100,
+      "volumeName": "downbgm"
+    },
+    {
+      "eventFlag": 0,
+      "loop": 1,
+      "name": "loopse",
+      "playTrans": "start",
+      "stopTrans": "normal",
+      "trans": "start",
+      "type": "music",
+      "volume": 100,
+      "volumeName": "se"
+    },
+    {
+      "name": "se",
+      "skipFlag": 1,
+      "track": 5,
+      "type": "sound",
+      "volume": 100,
+      "volumeName": "se"
+    },
+    {
+      "name": "bgv",
+      "skipFlag": 1,
+      "track": 5,
+      "type": "sound",
+      "volume": 100,
+      "volumeName": "bgv"
+    },
+    {
+      "cameraMode": 67,
+      "flag": 258,
+      "initOptions": {
+        "center": 1
+      },
+      "initProps": {
+        "origin": 1
+      },
+      "msgwinMode": 0,
+      "name": "base",
+      "rightHandMode": 1,
+      "shiftMode": 1,
+      "type": "layer",
+      "zorderMove": 0,
+      "zorderZoom": 0
+    },
+    {
+      "cameraMode": 67,
+      "dispTrans": {
+        "method": "",
+        "time": 300
+      },
+      "fadeValue": 300,
+      "flag": 772,
+      "initOptions": {
+        "center": 1
+      },
+      "initProps": {
+        "origin": 1
+      },
+      "msgwinMode": 0,
+      "name": "clayer",
+      "rightHandMode": 1,
+      "shiftMode": 1,
+      "trans": {
+        "method": "",
+        "time": 300
+      },
+      "type": "layer",
+      "zorderMove": 0,
+      "zorderZoom": 0
+    }
+  ],
+  "map": {
+    "base": 14,
+    "bgm": 10,
+    "bgv": 13,
+    "bu": 3,
+    "character": 2,
+    "clayer": 15,
+    "effect": 8,
+    "emotion": 4,
+    "event": 7,
+    "layer": 0,
+    "loopse": 11,
+    "movie": 9,
+    "msgwin": 5,
+    "se": 12,
+    "stage": 6,
+    "zlayer": 1
+  }
+}

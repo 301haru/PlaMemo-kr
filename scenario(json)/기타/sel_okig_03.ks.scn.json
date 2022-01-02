@@ -1,0 +1,189 @@
+{
+  "hash": "4f1a5615c727a5ebfc2cf83faf7e0b1f",
+  "name": "sel_okig_03.ks",
+  "outlines": [],
+  "scenes": [
+    {
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [
+        [1,{"data":[],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          2
+        ],
+        ["envupdate","update",[["init",0],
+            ["new","bgm","bgm"],
+            {
+              "action": [null],
+              "name": "env"
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 0,
+                "name": "env"
+              }
+            ]
+          }
+        ],
+        [2,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          2
+        ],
+        ["meswinload","page","both"],
+        [3,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          2
+        ]
+      ],
+      "nexts": [
+        {
+          "storage": "sel_okig_03.ks",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "spCount": 3,
+      "title": "「お着替えモード 4日目」"
+    },
+    {
+      "firstLine": 4,
+      "label": "*dummyselect1",
+      "lines": [
+        [1,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          6
+        ]
+      ],
+      "nexts": [
+        {
+          "evalstorage": "f.okigae_next",
+          "type": 0
+        }
+      ],
+      "selectInfo": {
+        "type": "okigae"
+      },
+      "selects": [
+        {
+          "exp": "f.costume=0",
+          "render": 1,
+          "selidx": 0,
+          "text": "cos_aa"
+        },
+        {
+          "exp": "f.costume=1",
+          "render": 1,
+          "selidx": 1,
+          "text": "cos_ab"
+        },
+        {
+          "exp": "f.costume=2",
+          "render": 1,
+          "selidx": 2,
+          "text": "cos_ac"
+        },
+        {
+          "exp": "f.costume=3",
+          "render": 1,
+          "selidx": 3,
+          "text": "cos_ad"
+        },
+        {
+          "exp": "f.costume=4",
+          "render": 1,
+          "selidx": 4,
+          "text": "cos_ae"
+        },
+        {
+          "exp": "f.costume=5",
+          "render": 1,
+          "selidx": 5,
+          "text": "cos_af"
+        },
+        {
+          "exp": "f.costume=6",
+          "render": 1,
+          "selidx": 6,
+          "text": "cos_ag"
+        },
+        {
+          "exp": "f.costume=7",
+          "render": 1,
+          "selidx": 7,
+          "text": "cos_ah"
+        },
+        {
+          "exp": "f.costume=8",
+          "render": 1,
+          "selidx": 8,
+          "text": "cos_ai"
+        },
+        {
+          "exp": "f.costume=9",
+          "render": 1,
+          "selidx": 9,
+          "text": "cos_aj"
+        },
+        {
+          "exp": "f.costume=10",
+          "render": 1,
+          "selidx": 10,
+          "text": "cos_ak"
+        },
+        {
+          "exp": "f.costume=11",
+          "render": 1,
+          "selidx": 11,
+          "text": "cos_al"
+        },
+        {
+          "exp": "f.costume=12",
+          "render": 1,
+          "selidx": 12,
+          "text": "cos_am"
+        },
+        {
+          "exp": "f.costume=13",
+          "render": 1,
+          "selidx": 13,
+          "text": "cos_ao"
+        },
+        {
+          "exp": "f.costume=14",
+          "render": 1,
+          "selidx": 14,
+          "text": "cos_an"
+        }
+      ],
+      "spCount": 1,
+      "title": "「お着替えモード 4日目」"
+    }
+  ]
+}

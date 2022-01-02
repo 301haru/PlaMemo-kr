@@ -1,0 +1,104 @@
+{
+  "hash": "5ff5199a4b8d88af81aa49db86622a82",
+  "name": "sel_skin_15.ks",
+  "outlines": [],
+  "scenes": [
+    {
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [
+        [1,{"data":[],
+            "env": {
+              "action": [null,null],
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          2
+        ],
+        ["envupdate","update",[["init",0],
+            ["new","bgm","bgm"],
+            {
+              "action": [null],
+              "name": "env"
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 0,
+                "name": "env"
+              }
+            ]
+          }
+        ],
+        [2,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          2
+        ],
+        ["meswinload","page","both"],
+        [3,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          2
+        ]
+      ],
+      "nexts": [
+        {
+          "storage": "sel_skin_15.ks",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "spCount": 3,
+      "title": "「ふれあいモード 16日目」"
+    },
+    {
+      "firstLine": 4,
+      "label": "*dummyselect1",
+      "lines": [
+        [1,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          6
+        ]
+      ],
+      "nexts": [
+        {
+          "evalstorage": "f.skinship_next",
+          "type": 0
+        }
+      ],
+      "selectInfo": {
+        "type": "skinship"
+      },
+      "selects": [
+        {
+          "render": 1,
+          "selidx": 0,
+          "text": "skinship"
+        }
+      ],
+      "spCount": 1,
+      "title": "「ふれあいモード 16日目」"
+    }
+  ]
+}

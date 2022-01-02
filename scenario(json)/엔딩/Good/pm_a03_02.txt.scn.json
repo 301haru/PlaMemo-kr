@@ -1,0 +1,4632 @@
+{
+  "hash": "aa0a7684fe74072b30142ccc8bb41e34",
+  "name": "pm_a03_02.txt",
+  "outlines": [],
+  "scenes": [
+    {
+      "firstLine": 0,
+      "label": "*start",
+      "lines": [
+        [1,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM032","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["lse","loopse",{"name":"lse","replay":{"filename":"PMSE_C008","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["se","se",{"name":"se"}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          6
+        ],
+        ["envupdate","update",[["init",0],
+            ["new","bgm","bgm"],
+            {
+              "action": [null],
+              "name": "env"
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 0,
+                "name": "env"
+              }
+            ]
+          }
+        ],
+        [2,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          6
+        ],
+        ["meswinload","page","both"],
+        [3,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007ea"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          6
+        ],
+        ["envupdate","update",[["new","アイラ","character"],
+            ["new","ミチル","character"],
+            ["new","ザック","character"],
+            ["new","カヅキ","character"],
+            ["new","シェリー","character"],
+            ["new","タカオ","character"],
+            ["new","レン","character"]
+          ]
+        ],
+        [4,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007ea"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          52
+        ],
+        ["sysmovie","file","pm_LAST3"],
+        ["msgoff"],
+        ["envupdate","update",[["new","bg","stage"],
+            {
+              "action": [null,["zpos",233.33333333333337],
+                null,
+                ["leveloffset",""],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":1000,"value":100}],
+                  1
+                ]
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0007ea"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "bg"
+              }
+            ]
+          }
+        ],
+        ["envupdate","update",[["del","アイラ"],
+            ["del","カヅキ"],
+            ["del","ザック"],
+            ["del","シェリー"],
+            ["del","タカオ"],
+            ["del","ミチル"],
+            ["del","レン"]
+          ]
+        ],
+        "cg_アイラ.stand",
+        "cg_ミチル.stand",
+        "cg_ザック.stand",
+        "cg_カヅキ.stand",
+        "cg_シェリー.stand",
+        "cg_タカオ.stand",
+        "cg_レン.stand",
+        [5,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007ea"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          1,
+          null,
+          61,
+          208,
+          null,
+          null
+        ],
+        1,
+        [6,1,2,null,63,192,null,null],
+        2,
+        [7,2,3,null,65,192,null,null],
+        3,
+        [8,3,4,null,67,192,null,null],
+        4,
+        [9,4,5,null,69,192,null,null],
+        5,
+        [10,5,6,null,71,192,null,null],
+        6,
+        [11,6,null,null,71],
+        ["msgoff"],
+        ["envupdate","update",[{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"trans":{"method":"","time":0}}]
+        ],
+        "bgm_PM_BGM007",
+        [12,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          74
+        ],
+        ["envupdate","update",[{"action":[null,["leveloffset",""]
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0002aa"
+                },
+                "posName": null
+              },
+              "showmode": 3,
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "method": "universal",
+            "rule": "map18",
+            "time": 1000
+          }
+        ],
+        [13,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          7,
+          null,
+          81,
+          208,
+          null,
+          null
+        ],
+        7,
+        [14,7,8,null,83,192,null,null],
+        8,
+        [15,8,9,null,85,192,null,null],
+        9,
+        [16,9,10,null,89,192,null,null],
+        ["envupdate","update",[["new","ミキジロウ","character"],
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",0],
+                ["xpos",0],
+                ["$lip","$lipミキジロウ"],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":300,"value":100}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "ミキジロウ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                  "options": {
+                    "face": "目_通常１:口_通常１"
+                  }
+                },
+                "posName": "中"
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "time": 300
+              },
+              "type": null
+            }
+          ]
+        ],
+        "cg_ミキジロウ.stand",
+        10,
+        [17,10,11,null,92,192,null,null],
+        11,
+        [18,11,null,null,92],
+        ["envupdate","update",[["new","アイラ","character"],
+            ["new","萌葱博士","character"],
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["xpos",-250],
+                ["order",-1],
+                ["$lip","$lipアイラ"],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":300,"value":100}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "アイラ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                  "options": {
+                    "face": "目_通常:口_通常"
+                  }
+                },
+                "posName": "左"
+              },
+              "showmode": 1,
+              "trans": {
+                "back": "true",
+                "method": "",
+                "time": 300
+              },
+              "type": null
+            },
+            {
+              "action": [
+                ["leveloffset",""],
+                null,
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",1],
+                ["xpos",250],
+                ["$lip","$lip萌葱博士"],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":300,"value":100}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "萌葱博士",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                  "options": {
+                    "face": "目_通常:口_通常"
+                  }
+                },
+                "posName": "右"
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "time": 300
+              },
+              "type": null
+            },
+            {
+              "hideact": [
+                ["visvalue",[{"delay":null,"handler":"MoveAction","time":300,"value":0}]
+                ]
+              ],
+              "name": "ミキジロウ",
+              "showmode": 2,
+              "trans": {
+                "method": "",
+                "time": 300
+              }
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "萌葱博士"
+              }
+            ]
+          }
+        ],
+        "cg_アイラ.stand",
+        "cg_萌葱博士.stand",
+        [19,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          12,
+          null,
+          101,
+          192,
+          null,
+          null
+        ],
+        12,
+        [20,12,13,null,104,192,null,null],
+        13,
+        [21,13,14,null,108,192,null,null],
+        14,
+        [22,14,15,null,112,192,null,null],
+        15,
+        [23,15,16,null,116,192,null,null],
+        16,
+        [24,16,17,null,119,192,null,null],
+        17,
+        [25,17,18,null,125,192,null,null],
+        ["envupdate","update",[{"action":[["$lip","$lip萌葱博士"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "萌葱博士",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "萌葱博士_66aad77606ce5e2065d81d93fa5ee0ce",
+                  "options": {
+                    "face": "目_通常:口_通常"
+                  }
+                },
+                "posName": "右"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        18,
+        [26,18,19,null,130,192,null,null],
+        ["envupdate","update",[{"action":[["$lip","$lip萌葱博士"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "萌葱博士",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "萌葱博士_66aad77606ce5e2065d81d93fa5ee0ce",
+                  "options": {
+                    "face": "目_怒り:口_笑顔"
+                  }
+                },
+                "posName": "右"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        19,
+        [27,19,20,null,136,192,null,null],
+        ["envupdate","update",[{"action":[["$lip","$lip萌葱博士"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "萌葱博士",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                  "options": {
+                    "face": "目_通常:口_通常"
+                  }
+                },
+                "posName": "右"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        20,
+        [28,20,21,null,141,192,null,null],
+        ["envupdate","update",[{"action":[["$lip","$lip萌葱博士"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "萌葱博士",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                  "options": {
+                    "face": "目_笑顔:口_笑顔"
+                  }
+                },
+                "posName": "右"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        21,
+        [29,21,22,null,145,192,null,null],
+        22,
+        [30,22,23,null,151,192,null,null],
+        ["envupdate","update",[{"hideact":[["visvalue",[{"delay":null,"handler":"MoveAction","time":300,"value":0}]
+                ]
+              ],
+              "name": "アイラ",
+              "showmode": 2,
+              "trans": {
+                "method": "",
+                "time": 300
+              }
+            },
+            {
+              "hideact": [
+                ["visvalue",[{"delay":null,"handler":"MoveAction","time":300,"value":0}]
+                ]
+              ],
+              "name": "萌葱博士",
+              "showmode": 2,
+              "trans": {
+                "method": "",
+                "time": 300
+              }
+            }
+          ]
+        ],
+        23,
+        [31,23,24,null,153,192,null,null],
+        24,
+        [32,24,25,null,155,192,null,null],
+        25,
+        [33,25,null,null,155],
+        ["envupdate","update",[{"action":[["zpos",0.0],
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",2],
+                ["xpos",0],
+                ["$lip","$lipミキジロウ"],
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":300,"value":100}],
+                  1
+                ]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "ミキジロウ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                  "options": {
+                    "face": "目_通常１:口_通常１"
+                  }
+                },
+                "posName": "中"
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "ミキジロウ"
+              }
+            ]
+          }
+        ],
+        [34,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["$lip","$lipミキジロウ"],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_通常１:口_通常１"
+                      }
+                    },
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          26,
+          null,
+          161,
+          192,
+          null,
+          null
+        ],
+        26,
+        [35,26,27,null,163,192,null,null],
+        27,
+        [36,27,null,null,163],
+        ["envupdate","update",[{"action":[["xpos",-250],
+                ["order",-1],
+                ["zpos",0.0],
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["xpos",-250],
+                ["order",0],
+                ["$lip","$lipアイラ"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "アイラ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                  "options": {
+                    "face": "目_通常:口_通常"
+                  }
+                },
+                "posName": "左"
+              },
+              "showmode": 1,
+              "trans": {
+                "back": "true",
+                "method": "",
+                "time": 300
+              },
+              "type": null
+            },
+            {
+              "action": [null,["ypos",0],
+                ["zpos",0.0],
+                ["order",2],
+                ["xpos",250],
+                ["$lip","$lipミキジロウ"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "ミキジロウ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                  "options": {
+                    "face": "目_通常１:口_通常１"
+                  }
+                },
+                "posName": "右"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":1,"name":"ミキジロウ"}]
+          },
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        [37,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lipミキジロウ"],
+                    ["order",2]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_通常１:口_通常１"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          28,
+          null,
+          170,
+          192,
+          null,
+          null
+        ],
+        28,
+        [38,28,29,null,175,192,null,null],
+        ["envupdate","update",[{"action":[null,["ypos",0],
+                ["zpos",0.0],
+                ["xpos",-250],
+                ["order",0],
+                ["$lip","$lipアイラ"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "アイラ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                  "options": {
+                    "face": "目_微笑み:口_微笑み"
+                  }
+                },
+                "posName": "左"
+              },
+              "showmode": 3,
+              "trans": {
+                "back": "true",
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "back": "true",
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        29,
+        [39,29,30,null,180,192,null,null],
+        ["envupdate","update",[{"action":[["$lip","$lipミキジロウ"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "ミキジロウ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                  "options": {
+                    "face": "目_通常１:口_通常１"
+                  }
+                },
+                "posName": "右"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        30,
+        [40,30,31,null,184,192,null,null],
+        ["envupdate","update",[{"hideact":[["visvalue",[{"delay":null,"handler":"MoveAction","time":300,"value":0}]
+                ]
+              ],
+              "name": "ミキジロウ",
+              "showmode": 2,
+              "trans": {
+                "method": "",
+                "time": 300
+              }
+            }
+          ]
+        ],
+        31,
+        [41,31,null,null,184],
+        ["envupdate","update",[{"action":[null,["ypos",0],
+                ["zpos",0.0],
+                ["order",4],
+                ["xpos",-250],
+                ["$lip","$lipアイラ"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "アイラ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "アイラ_b34f34cf821a7ba16ebcccec075030f0",
+                  "options": {
+                    "face": "目_微笑み:口_通常"
+                  }
+                },
+                "posName": "左"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            },
+            {
+              "action": [
+                ["xpos",250],
+                ["order",1],
+                ["zpos",0.0],
+                null,
+                ["ypos",0],
+                ["zpos",0.0],
+                ["order",3],
+                ["xpos",250],
+                ["$lip","$lip萌葱博士"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "萌葱博士",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                  "options": {
+                    "face": "目_通常:口_通常"
+                  }
+                },
+                "posName": "右"
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":1,"name":"アイラ"}]
+          },
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        [42,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",4]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_b34f34cf821a7ba16ebcccec075030f0",
+                      "options": {
+                        "face": "目_微笑み:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["xpos",250],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",3]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          32,
+          null,
+          191,
+          192,
+          null,
+          null
+        ],
+        32,
+        [43,32,33,null,195,192,null,null],
+        33,
+        [44,33,34,null,201,192,null,null],
+        ["envupdate","update",[{"action":[null,["ypos",0],
+                ["zpos",0.0],
+                ["order",5],
+                ["xpos",250],
+                ["$lip","$lip萌葱博士"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "萌葱博士",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                  "options": {
+                    "face": "目_笑顔:口_笑顔"
+                  }
+                },
+                "posName": "右"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        34,
+        [45,34,35,null,207,192,null,null],
+        ["envupdate","update",[{"action":[null,["ypos",0],
+                ["zpos",0.0],
+                ["order",6],
+                ["xpos",-250],
+                ["$lip","$lipアイラ"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "アイラ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "アイラ_b34f34cf821a7ba16ebcccec075030f0",
+                  "options": {
+                    "face": "目_微笑み:口_微笑み"
+                  }
+                },
+                "posName": "左"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        35,
+        [46,35,36,null,212,192,null,null],
+        ["envupdate","update",[{"action":[["$lip","$lipアイラ"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "アイラ",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                  "options": {
+                    "face": "目_微笑み:口_微笑み"
+                  }
+                },
+                "posName": "左"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        36,
+        [47,36,37,null,217,192,null,null],
+        ["envupdate","update",[{"action":[["$lip","$lip萌葱博士"]
+              ],
+              "class": "character",
+              "link": null,
+              "name": "萌葱博士",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                  "options": {
+                    "face": "目_笑顔:口_笑顔"
+                  }
+                },
+                "posName": "右"
+              },
+              "showmode": 3,
+              "trans": {
+                "method": "crossfade",
+                "time": 300
+              },
+              "type": null
+            }
+          ],
+          "trans",
+          {
+            "method": "crossfade",
+            "time": 300
+          }
+        ],
+        37,
+        [48,37,null,null,217],
+        ["envupdate","update",[{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"trans":{"method":"","time":"3000"}}]
+        ],
+        ["envupdate","update",[{"hideact":[["visvalue",[{"accel":1,"handler":"MoveAction","time":500,"value":"0"},{"handler":"wait"}]
+                ],
+                ["xpos",[{"accel":"acdec","handler":"MoveAction","time":500,"value":"@-15"},{"accel":"acdec","handler":"MoveAction","time":0,"value":"@"}]
+                ]
+              ],
+              "name": "アイラ",
+              "showmode": 2,
+              "trans": {
+                "sync": 1,
+                "time": 500
+              }
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 0,
+                "name": "アイラ"
+              }
+            ]
+          }
+        ],
+        [49,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["order",6],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["xpos",250],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",5]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          38,
+          null,
+          222,
+          192,
+          null,
+          null
+        ],
+        38,
+        [50,38,39,null,226,192,null,null],
+        ["envupdate","update",[{"hideact":[["visvalue",[{"delay":null,"handler":"MoveAction","time":300,"value":0}]
+                ]
+              ],
+              "name": "萌葱博士",
+              "showmode": 2,
+              "trans": {
+                "method": "",
+                "time": 300
+              }
+            }
+          ]
+        ],
+        39,
+        [51,39,40,null,228,192,null,null],
+        40,
+        [52,40,null,null,228],
+        ["envupdate","update",[{"name":"bg","showmode":2}],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 1000.0
+            },
+            "bgcolor": -16777216,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 1000.0
+            },
+            "method": "crossfade",
+            "msgoff": "true",
+            "time": "2000"
+          },
+          "msgoff",
+          1
+        ],
+        ["envupdate","update",[["del","bg"],
+            ["del","アイラ"],
+            ["del","ミキジロウ"],
+            ["del","萌葱博士"]
+          ]
+        ],
+        [53,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          41,
+          null,
+          367,
+          192,
+          null,
+          null
+        ],
+        ["sysmovie","file","PM_MV010"],
+        41,
+        [54,41,null,null,367],
+        ["envupdate","update",[{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"trans":{"method":"","time":0}}]
+        ],
+        "bgm_PM_BGM050",
+        [55,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0003aa_0885d668249d75f612c5f33256aa5086"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          368
+        ],
+        ["envupdate","update",[["new","bg","stage"],
+            {
+              "action": [null,["zpos",233.33333333333337],
+                ["leveloffset",""],
+                null
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0003aa_0885d668249d75f612c5f33256aa5086"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 500.0
+            },
+            "bgcolor": -1,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 500.0
+            },
+            "method": "crossfade",
+            "msgoff": 1,
+            "time": 1000
+          },
+          "msgoff",
+          1
+        ],
+        "cg_pmbg0003aa",
+        [56,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0003aa_0885d668249d75f612c5f33256aa5086"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          42,
+          null,
+          374,
+          192,
+          null,
+          null
+        ],
+        42,
+        [57,42,null,null,374],
+        ["envupdate","update",[["del","bg"],
+            ["new","bg","stage"],
+            {
+              "action": [null,["zpos",233.33333333333337],
+                ["leveloffset",""],
+                null
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0012aa_0885d668249d75f612c5f33256aa5086"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 500.0
+            },
+            "bgcolor": -1,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 500.0
+            },
+            "method": "crossfade",
+            "msgoff": 1,
+            "time": 1000
+          },
+          "msgoff",
+          1
+        ],
+        "cg_pmbg0012aa",
+        [58,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0012aa_0885d668249d75f612c5f33256aa5086"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          43,
+          null,
+          380,
+          192,
+          null,
+          null
+        ],
+        43,
+        [59,43,null,null,380],
+        ["envupdate","update",[["del","bg"],
+            ["new","bg","stage"],
+            {
+              "action": [null,["zpos",233.33333333333337],
+                ["leveloffset",""],
+                null
+              ],
+              "class": "stage",
+              "link": null,
+              "name": "bg",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pmbg0100aa_0885d668249d75f612c5f33256aa5086"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 500.0
+            },
+            "bgcolor": -1,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -1,
+              "method": "crossfade",
+              "msgoff": 1,
+              "time": 500.0
+            },
+            "method": "crossfade",
+            "msgoff": 1,
+            "time": 1000
+          },
+          "msgoff",
+          1
+        ],
+        "cg_pmbg0100aa",
+        [60,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa_0885d668249d75f612c5f33256aa5086"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          44,
+          null,
+          387,
+          192,
+          null,
+          null
+        ],
+        44,
+        [61,44,null,null,387],
+        ["msgoff"],
+        ["envupdate","update",[{"hideact":[["visvalue",[{"delay":null,"handler":"MoveAction","time":"1000","value":0}]
+                ]
+              ],
+              "name": "bg",
+              "showmode": 2,
+              "trans": {
+                "method": "",
+                "sync": 1,
+                "time": "1000"
+              }
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 0,
+                "name": "bg"
+              }
+            ]
+          }
+        ],
+        ["envupdate","update",[["del","bg"]
+          ]
+        ],
+        [62,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          45,
+          null,
+          391,
+          192,
+          null,
+          null
+        ],
+        45,
+        [63,45,null,null,391],
+        ["msgoff"],
+        ["envupdate","update",[["new","ev","event"],
+            {
+              "action": [
+                ["leveloffset",""],
+                ["zpos",-60.0],
+                null,
+                ["visvalue",0],
+                ["visvalue",[{"delay":null,"handler":"MoveAction","start":0,"time":1000,"value":100}],
+                  1
+                ]
+              ],
+              "class": "event",
+              "link": null,
+              "name": "ev",
+              "redraw": {
+                "disp": 2,
+                "imageFile": {
+                  "file": "pm_mv010a"
+                },
+                "posName": null
+              },
+              "showmode": 1,
+              "trans": {
+                "method": "",
+                "sync": 1,
+                "time": 1000
+              },
+              "type": null
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 1,
+                "name": "ev"
+              }
+            ]
+          }
+        ],
+        "cg_pm_mv010a",
+        [64,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_mv010a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          46,
+          null,
+          397,
+          216,
+          null,
+          null
+        ],
+        46,
+        [65,46,47,null,401,200,null,null],
+        47,
+        [66,47,null,null,401],
+        ["envupdate","update",[{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":0,"volume":70.0},"trans":{"method":"","time":"3000"}}]
+        ],
+        ["msgoff"],
+        ["envupdate","update",[{"hideact":[["visvalue",[{"delay":null,"handler":"MoveAction","time":"3000","value":0}]
+                ]
+              ],
+              "name": "ev",
+              "showmode": 2,
+              "trans": {
+                "method": "",
+                "sync": 1,
+                "time": "3000"
+              }
+            }
+          ],
+          "wait",
+          {
+            "list": [
+              {
+                "mode": 0,
+                "name": "ev"
+              }
+            ]
+          }
+        ],
+        ["envupdate","update",[["del","ev"]
+          ]
+        ],
+        [67,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":0,"volume":70.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          403
+        ],
+        ["wait","time","2000"],
+        [68,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":0,"volume":70.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          405
+        ],
+        ["sysmovie","file","END02"],
+        [69,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":0,"volume":70.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          410
+        ]
+      ],
+      "nexts": [
+        {
+          "storage": "pm_a03_02.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "postevals": ["setFileReaded(\"pm_bgm047\")"],
+      "spCount": 69,
+      "texts": [
+        [null,null,"アイラのハイバネート措置は、予想以上に早く決まった。",null,208,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007ea"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"萌葱博士に俺たちの答えを告げた翌日には、すでに本社に話を通してくれていた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007ea"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"あまりに急な話だったから、第１ターミナルサービスのみんなにもきちんと話をする時間はなかった。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007ea"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"カヅキさんにだけはせめて同席してほしくて、事情を話したんだけど、今日も仕事らしくて、“任せる”とだけ言われた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007ea"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"後でコンスタンスから“きっと号泣する姿をツカサたちに見られたくないのでしょう”って教えてもらったけど。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007ea"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"とにかくアイラが眠った後、俺ひとりでみんなにちゃんと説明しなくちゃ。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0007ea"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":null,"loop":null,"start":null,"state":null,"volume":null},"update":{"state":null}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"ギフティアを長期ハイバネートするための装置は、この本社にしかなかった。",null,208,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"立ち合いは、俺を含めてわずか３人。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"俺と、萌葱博士。それと――",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"ハイバネートするに当たって、装置の準備や操作が必要になる。それを、第１ターミナルサービスの専属エンジニアであるオヤジさんが引き受けてくれた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ミキジロウ","character",{"action":[["$lip","$lipミキジロウ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_通常１:口_通常１"
+                      }
+                    },
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"オヤジさんは、すべての事情を知らされても、俺たちに目配せして軽くうなずいただけで、なにも聞いてはこなかった。\\nただ黙々と、自分の仕事にだけ専念してくれた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["ミキジロウ","character",{"action":[["$lip","$lipミキジロウ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_通常１:口_通常１"
+                      }
+                    },
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"…………",[{"labels":[0,"vlstart",56,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 945,
+              "type": 0,
+              "voice": "PM_A03_02_ISL0000",
+              "vols": [0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"アイラは……落ち着いているように見える。\\nただ、今朝から口数は少なかった。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["萌葱博士","ユウ","なに、緊張する必要などない。ターミナルサービスがいつも回収対象にやっているハイバネートと、なにも変わらない",[{"labels":[0,"vlstart",451,"vlstop"],
+              "name": "萌葱博士",
+              "pan": 0,
+              "time": 7517,
+              "type": 0,
+              "voice": "PM_A03_02_MOE0000",
+              "vols": [0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,2,2,2,2,1,1,1,2,2,2,2,2,2,2,1,1,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,2,2,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,0,0,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,1,0,0,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"博士……もう少し、デリカシーを……",[{"labels":[0,"vlstart",186,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 3103,
+              "type": 0,
+              "voice": "PM_A03_02_TSU0000"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["萌葱博士","ユウ","ん？",[{"labels":[0,"vlstart",23,"vlstop"],
+              "name": "萌葱博士",
+              "pan": 0,
+              "time": 385,
+              "type": 0,
+              "voice": "PM_A03_02_MOE0001",
+              "vols": [0,0,0,1,2,2,2,2,2,2,2,2,2,1,1,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"この状況で、なんでそういうことを言えるんだろう……。\\nこの人らしいと言えば、らしいけど。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["萌葱博士","ユウ","しかし、まさか伍堂くんが許可するとは予想外だった",[{"labels":[0,"vlstart",298,"vlstop"],
+              "name": "萌葱博士",
+              "pan": 0,
+              "time": 4982,
+              "type": 0,
+              "voice": "PM_A03_02_MOE0002",
+              "vols": [0,0,1,1,1,1,1,1,1,1,1,2,2,2,2,2,1,1,1,1,2,2,2,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,1,0,0,0,1,1,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,0,0,0,1,1,1,2,2,2,1,0,0,1,1,2,2,2,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_66aad77606ce5e2065d81d93fa5ee0ce",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["萌葱博士","ユウ","彼はケチだからな。こういう余計な費用がかかることは嫌がると思っていたんだが",[{"labels":[0,"vlstart",350,"vlstop"],
+              "name": "萌葱博士",
+              "pan": 0,
+              "time": 5835,
+              "type": 0,
+              "voice": "PM_A03_02_MOE0003",
+              "vols": [1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,0,0,0,1,1,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,1,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,0,0,0,1,2,2,2,2,2,1,1,0,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_66aad77606ce5e2065d81d93fa5ee0ce",
+                      "options": {
+                        "face": "目_怒り:口_笑顔"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["萌葱博士","ユウ","まあ、あの男はいつも、腹の中でいろいろ考えているようだから、今回もなにか思うところがあるんだろう",[{"labels":[0,"vlstart",432,"vlstop"],
+              "name": "萌葱博士",
+              "pan": 0,
+              "time": 7209,
+              "type": 0,
+              "voice": "PM_A03_02_MOE0004",
+              "vols": [0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,0,0,1,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,0,0,1,1,1,1,1,0,0,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["萌葱博士","ユウ","あるいは、ツカサくんがギフティアにとっての救世主になる男だと、期待しているのかもしれない",[{"labels":[0,"vlstart",420,"vlstop"],
+              "name": "萌葱博士",
+              "pan": 0,
+              "time": 7010,
+              "type": 0,
+              "voice": "PM_A03_02_MOE0005",
+              "vols": [0,0,1,1,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,2,2,2,1,1,1,1,1,2,2,2,2,1,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,1,2,2,2,2,1,1,1,1,1,1,0,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,2,2,1,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,1,1,1,0,0,0,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,1,1,2,2,2,1,1,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,1,1,1,2,2,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,1,0,0,1,1,1,1,1,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"いくらなんでもそれは大げさでしょう",[{"labels":[0,"vlstart",137,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 2297,
+              "type": 0,
+              "voice": "PM_A03_02_TSU0001"
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",-1]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",1]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"もしかしたら、なんらかの利用価値を見出された可能性はあるけど。\\nこれは、カヅキさんも言ってた話だ。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"まあ、そういう駆け引きみたいなことは、今の俺には関係ない。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"部長はアイラの長期ハイバネートを許可してくれた。それだけ。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ミキジロウ",null,"――待たせたな",[{"labels":[0,"vlstart",65,"vlstop"],
+              "name": "ミキジロウ",
+              "pan": 0,
+              "time": 1094,
+              "type": 0,
+              "voice": "PM_A03_02_MIK0000",
+              "vols": [0,1,1,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,1,1,1,1,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["$lip","$lipミキジロウ"],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_通常１:口_通常１"
+                      }
+                    },
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"ずっとコンソールで作業をしていたオヤジさんが、声をかけてきた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["order",-1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["$lip","$lipミキジロウ"],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_通常１:口_通常１"
+                      }
+                    },
+                    "posName": "中"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ミキジロウ",null,"いつでも準備ＯＫだ",[{"labels":[0,"vlstart",101,"vlstop"],
+              "name": "ミキジロウ",
+              "pan": 0,
+              "time": 1689,
+              "type": 0,
+              "voice": "PM_A03_02_MIK0001",
+              "vols": [0,0,0,0,1,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lipミキジロウ"],
+                    ["order",2]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_通常１:口_通常１"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"ありがとう、オヤジさん",[{"labels":[0,"vlstart",142,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 2372,
+              "type": 0,
+              "voice": "PM_A03_02_ISL0001",
+              "vols": [0,1,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,2,1,1,0,0,0,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_微笑み:口_微笑み"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lipミキジロウ"],
+                    ["order",2]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_通常１:口_通常１"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ミキジロウ",null,"元気でな",[{"labels":[0,"vlstart",47,"vlstop"],
+              "name": "ミキジロウ",
+              "pan": 0,
+              "time": 784,
+              "type": 0,
+              "voice": "PM_A03_02_MIK0002",
+              "vols": [0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_微笑み:口_微笑み"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lipミキジロウ"],
+                    ["order",2]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "ミキジロウ_ba1eb3be6a9c14a381bbda6886f189f2",
+                      "options": {
+                        "face": "目_通常１:口_通常１"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"オヤジさんは、やっぱり余計なことは言わずに、一言だけの別れの挨拶を交わした。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_微笑み:口_微笑み"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["xpos",250],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",1],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"萌葱博士、研究のこと、よろしくお願いします",[{"labels":[0,"vlstart",302,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 5049,
+              "type": 0,
+              "voice": "PM_A03_02_ISL0002",
+              "vols": [0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,1,1,2,2,2,2,1,0,0,1,2,2,2,1,1,1,1,1,1,2,2,2,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,1,2,2,2,1,1,0,0,1,2,2,2,2,2,2,2,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",4]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_b34f34cf821a7ba16ebcccec075030f0",
+                      "options": {
+                        "face": "目_微笑み:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["xpos",250],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",3]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["萌葱博士","ユウ","言われずとも、向き合い続けるさ。この原罪にね",[{"labels":[0,"vlstart",263,"vlstop"],
+              "name": "萌葱博士",
+              "pan": 0,
+              "time": 4390,
+              "type": 0,
+              "voice": "PM_A03_02_MOE0006",
+              "vols": [0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,1,1,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,2,2,2,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",4]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_b34f34cf821a7ba16ebcccec075030f0",
+                      "options": {
+                        "face": "目_微笑み:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["xpos",250],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",3]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_通常:口_通常"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["萌葱博士","ユウ","アイラ、君は、幸せ者だ。いい伴侶に巡り会えたんだからな",[{"labels":[0,"vlstart",385,"vlstop"],
+              "name": "萌葱博士",
+              "pan": 0,
+              "time": 6431,
+              "type": 0,
+              "voice": "PM_A03_02_MOE0007",
+              "vols": [0,1,1,2,2,2,2,2,2,2,2,1,1,1,2,2,2,2,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,2,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",4]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_b34f34cf821a7ba16ebcccec075030f0",
+                      "options": {
+                        "face": "目_微笑み:口_通常"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["xpos",250],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",5]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"うん",[{"labels":[0,"vlstart",51,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 856,
+              "type": 0,
+              "voice": "PM_A03_02_ISL0003",
+              "vols": [0,0,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",6]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_b34f34cf821a7ba16ebcccec075030f0",
+                      "options": {
+                        "face": "目_微笑み:口_微笑み"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["xpos",250],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",5]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["アイラ",null,"ありがとう、博士。元気で",[{"labels":[0,"vlstart",199,"vlstop"],
+              "name": "アイラ",
+              "pan": 0,
+              "time": 3328,
+              "type": 0,
+              "voice": "PM_A03_02_ISL0004",
+              "vols": [0,1,2,2,2,2,1,1,2,2,2,2,1,1,1,2,2,2,2,1,1,0,0,0,1,2,2,2,2,2,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,2,2,2,1,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,1,1,2,2,1,1,1,1,1,1,1,1,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",6]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_微笑み:口_微笑み"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["xpos",250],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",5]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["萌葱博士","ユウ","また再会できることを祈ってくれ",[{"labels":[0,"vlstart",185,"vlstop"],
+              "name": "萌葱博士",
+              "pan": 0,
+              "time": 3084,
+              "type": 0,
+              "voice": "PM_A03_02_MOE0008",
+              "vols": [1,2,2,2,2,2,2,1,0,0,0,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,0,0,1,1,2,2,2,2,2,2,2,2,1,1,2,2,2,2,1,0,0,1,1,2,2,2,2,2,2,2,1,0,0,1,1,2,2,2,2,1,1,1,2,2,2,2,2,2,2,1,1,2,2,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2,2,1,0,0,0,0,0,0,0,1,1,1,1,1,0,0,1,1,1,1,1,1,1,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0]
+            }
+          ],
+          192,
+          {
+            "data": [
+              ["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":1,"volume":50.0},"update":{"state":1}}],
+              ["アイラ","character",{"action":[["zpos",0.0],
+                    ["xpos",-250],
+                    ["$lip","$lipアイラ"],
+                    ["order",6]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "アイラ_e864e004c9e73bef97b03bce06c9c7cf",
+                      "options": {
+                        "face": "目_微笑み:口_微笑み"
+                      }
+                    },
+                    "posName": "左"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["xpos",250],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",5]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"アイラは博士との最後の挨拶を終えて、ハイバネートボックスへと向かった。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["order",6],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["xpos",250],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["zpos",0.0],
+                    ["xpos",250],
+                    ["$lip","$lip萌葱博士"],
+                    ["order",5]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "萌葱博士_9fc48986e4bbd33a4988fd83b03646a7",
+                      "options": {
+                        "face": "目_笑顔:口_笑顔"
+                      }
+                    },
+                    "posName": "右"
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"博士とオヤジさんは、気を利かせてくれたのか、コンソールを見ながら作業前の最終チェックを始めた。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["order",6],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["xpos",250],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",5],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"この間が、俺に許されたアイラとの最後の時間だ。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0002aa"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}],
+              ["アイラ","character",{"action":[["xpos",-250],
+                    ["order",6],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "アイラ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["ミキジロウ","character",{"action":[["xpos",250],
+                    ["order",2],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "ミキジロウ",
+                  "showmode": 0,
+                  "type": null
+                }
+              ],
+              ["萌葱博士","character",{"action":[["xpos",250],
+                    ["order",5],
+                    ["zpos",0.0]
+                  ],
+                  "class": "character",
+                  "name": "萌葱博士",
+                  "showmode": 0,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"歯を食いしばって、涙をこらえる。",null,192,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM007","loop":1,"start":null,"state":0,"volume":50.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"ここで一時的にお別れになってしまうことが、辛くてしょうがなかった。これからもずっと一緒に、毎日を過ごしていきたかった。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0003aa_0885d668249d75f612c5f33256aa5086"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"でもそれは、今は、どうやったってかなわない。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0012aa_0885d668249d75f612c5f33256aa5086"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"だから、そんな毎日を手に入れるために。\\n今はこの別れを受け入れよう。",null,192,{"data":[["bg","stage",{"action":[["zpos",233.33333333333337]
+                  ],
+                  "class": "stage",
+                  "name": "bg",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pmbg0100aa_0885d668249d75f612c5f33256aa5086"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ],
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        [null,null,"そうして、いつかの再会のために、涙はこらえよう。",null,192,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"update":{"state":1}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"おやすみ、アイラ",[{"labels":[0,"vlstart",115,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 1933,
+              "type": 0,
+              "voice": "PM_A03_02_TSU0011"
+            }
+          ],
+          216,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_mv010a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ],
+        ["ツカサ",null,"また会う日まで、いい夢を",[{"labels":[0,"vlstart",197,"vlstop"],
+              "name": "ツカサ",
+              "pan": 0,
+              "time": 3288,
+              "type": 0,
+              "voice": "PM_A03_02_TSU0012"
+            }
+          ],
+          200,
+          {
+            "data": [
+              ["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":1,"volume":70.0},"update":{"state":1}}],
+              ["ev","event",{"action":[["zpos",-60.0]
+                  ],
+                  "class": "event",
+                  "name": "ev",
+                  "redraw": {
+                    "disp": 2,
+                    "imageFile": {
+                      "file": "pm_mv010a"
+                    },
+                    "posName": null
+                  },
+                  "showmode": 3,
+                  "type": null
+                }
+              ]
+            ],
+            "env": {
+              "name": "env"
+            }
+          }
+        ]
+      ],
+      "title": "「君と歩む未来」"
+    },
+    {
+      "firstLine": 410,
+      "label": "*dummy1",
+      "lines": [
+        [1,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":0,"volume":70.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          410
+        ],
+        ["sysmovie","file","PM_MV011"],
+        ["envupdate","wait",{"list":[null,{"mode":0,"name":"env"}]
+          },
+          "trans",
+          {
+            "begin": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 1250.0
+            },
+            "bgcolor": -16777216,
+            "blacktrans": 1,
+            "end": {
+              "bgcolor": -16777216,
+              "method": "crossfade",
+              "msgoff": "true",
+              "time": 1250.0
+            },
+            "method": "crossfade",
+            "msgoff": "true",
+            "time": "2500"
+          },
+          "msgoff",
+          1
+        ],
+        [2,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":0,"volume":70.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          518
+        ],
+        ["wait","time","1000","sync","true"],
+        [3,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":0,"volume":70.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          null,
+          519
+        ]
+      ],
+      "nexts": [
+        {
+          "storage": "pm_a03_02.txt",
+          "target": "*diary_A03_02",
+          "type": 0
+        }
+      ],
+      "spCount": 3,
+      "title": "「君と歩む未来」"
+    },
+    {
+      "firstLine": 522,
+      "label": "*diary_A03_02",
+      "lines": [
+        [1,{"data":[["bgm","bgm",{"name":"bgm","replay":{"filename":"PM_BGM050","loop":1,"start":null,"state":0,"volume":70.0},"update":{"state":0}}]
+            ],
+            "env": {
+              "name": "env"
+            }
+          },
+          null,
+          1,
+          522
+        ]
+      ],
+      "postevals": ["setRouteEnd(85)","setScnEnd(85)","mergeSysFlag()"],
+      "spCount": 1,
+      "title": "「君と歩む未来」"
+    }
+  ]
+}

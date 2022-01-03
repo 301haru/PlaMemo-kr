@@ -7,12 +7,17 @@ import java.util.ArrayList;
 
 public class PlaMemoKR
 {
-
     static final int VALUE = 0;
 
     //VALUE 0 : JSON to CSV
     //VALUE 1 : CSV to JSON
 
+
+    //===============================
+    //실수로 실행하기 방지위한 주석처리
+    //===============================
+
+    /*
     public static void main(String[] args)
     {
         Files files = new Files();
@@ -57,5 +62,5 @@ public class PlaMemoKR
                 break;
             }
         }
-    }
+    }*/
 }

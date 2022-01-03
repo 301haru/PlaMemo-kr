@@ -21,22 +21,11 @@ public class JSONtoCSV
 
         int index = 0;
 
-        StringBuilder sb1 = new StringBuilder();
-        sb1.append("\"").append("번호").append("\",")
-                .append("\"").append("이름").append("\",")
-                .append("\"").append("닉네임").append("\",")
-                .append("\"").append("문장").append("\",")
-                .append("\"").append("이름번역").append("\",")
-                .append("\"").append("닉네임번역").append("\",")
-                .append("\"").append("문장번역").append("\"");
-
-        output.add(sb1.toString());
-
-        for(int i=0; i<jArrayOriginal.size(); i++)
+        for (Object o : jArrayOriginal)
         {
-            jObject = (JSONObject) jParser.parse(jArrayOriginal.get(i).toString());
+            jObject = (JSONObject) jParser.parse(o.toString());
 
-            if(jObject.containsKey("texts"))
+            if (jObject.containsKey("texts"))
             {
                 JSONArray jArray1 = (JSONArray) jObject.get("texts");
 
@@ -48,20 +37,18 @@ public class JSONtoCSV
                     String nickName;
                     String words;
 
-                    if(jArray.get(0) == null)
+                    if (jArray.get(0) == null)
                     {
                         name = "";
-                    }
-                    else
+                    } else
                     {
                         name = (String) jArray.get(0);
                     }
 
-                    if(jArray.get(1) == null)
+                    if (jArray.get(1) == null)
                     {
                         nickName = "";
-                    }
-                    else
+                    } else
                     {
                         nickName = (String) jArray.get(1);
                     }
@@ -69,8 +56,7 @@ public class JSONtoCSV
                     words = (String) jArray.get(2);
 
                     StringBuilder sb = new StringBuilder();
-                    sb.append("\"").append(index).append("\",")
-                            .append("\"").append(name).append("\",")
+                    sb.append("\"").append(name).append("\",")
                             .append("\"").append(nickName).append("\",")
                             .append("\"").append(words).append("\",")
                             .append("\"").append("\",")
@@ -81,8 +67,7 @@ public class JSONtoCSV
                     //    "인덱스" ,  "이름"   ,   "닉네임"   ,   "말"   ,   "번역이름"   ,   "번역닉네임"   ,   "번역말"
                     index++;
                 }
-            }
-            else if (jObject.containsKey("selects"))
+            } else if (jObject.containsKey("selects"))
             {
                 StringBuilder sb = new StringBuilder();
                 ArrayList<String> choose = new ArrayList<>();
@@ -93,8 +78,7 @@ public class JSONtoCSV
                     JSONObject jObject1 = (JSONObject) jParser.parse(a.toString());
                     choose.add((String) jObject1.get("text"));
                 }
-                sb.append("\"").append(index).append("\",")
-                        .append("\"").append(choose.get(0)).append("\",")
+                sb.append("\"").append(choose.get(0)).append("\",")
                         .append("\"").append(choose.get(1)).append("\",")
                         .append("\"").append("\",")
                         .append("\"").append("\",")
@@ -108,29 +92,27 @@ public class JSONtoCSV
         return output;
     }
 
-    public static void toCSV(String fileName) throws IOException, ParseException
+    public static void toCSV(String jsonFilePath) throws IOException, ParseException
     {
-        ArrayList list = decryptJSON(fileName);
+        ArrayList list = decryptJSON(jsonFilePath);
 
-        String a = fileName.replace(".\\scenario_json", ".\\scenario_csv");
+        String a = jsonFilePath.replace(".\\scenario_json", ".\\scenario_csv");
 
-        File csv = new File(a + ".csv");
-        createFile(csv);
+        File json = new File(a + ".csv");
+        createFile(json);
 
-        BufferedWriter bufferedWriter;
-
-        bufferedWriter = new BufferedWriter(new FileWriter(csv));
+        BufferedWriter bw = new BufferedWriter(new FileWriter(json));;
 
         for (Object s : list)
         {
-            bufferedWriter.write((String)s);
-            bufferedWriter.newLine();
+            bw.write((String)s);
+            bw.newLine();
         }
 
-        if (bufferedWriter != null)
+        if (bw != null)
         {
-            bufferedWriter.flush();
-            bufferedWriter.close();
+            bw.flush();
+            bw.close();
         }
     }
 

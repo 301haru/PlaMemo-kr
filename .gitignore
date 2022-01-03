@@ -5,8 +5,8 @@
 /translate GUI Tool/translate GUI Tool.iml
 
 
-/PlaMemoTranslator/.vs/PlaMemoTranslator
-/PlaMemoTranslator/PlaMemoTranslator/obj
-
-/.vs
+/.vs/
 .vs/
+
+.bin/
+.obj/

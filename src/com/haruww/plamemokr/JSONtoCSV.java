@@ -67,7 +67,11 @@ public class JSONtoCSV
                     //    "인덱스" ,  "이름"   ,   "닉네임"   ,   "말"   ,   "번역이름"   ,   "번역닉네임"   ,   "번역말"
                     index++;
                 }
-            } else if (jObject.containsKey("selects"))
+            }
+
+            //선택지 뽑는것, 선택지 갯수가 적고 프로그램 복잡도 올라가므로 제외시킴.
+
+            /*else if (jObject.containsKey("selects"))
             {
                 StringBuilder sb = new StringBuilder();
                 ArrayList<String> choose = new ArrayList<>();
@@ -87,7 +91,7 @@ public class JSONtoCSV
                 //    "인덱스" ,  "선택1"   ,   "선택2"   ,   "번역1"   ,   "번역2"
                 index++;
                 output.add(sb.toString());
-            }
+            }*/
         }
         return output;
     }

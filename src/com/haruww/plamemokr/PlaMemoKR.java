@@ -40,7 +40,9 @@ public class PlaMemoKR
             }
             case 1:
             {
-                for(int i=0; i<1; i++) // i<csvFiles.size()
+
+
+                for(int i=0; i<csvFiles.size(); i++) // i<csvFiles.size()
                 {
                     String f1 = csvFiles.get(i);
                     String f2 = jsonFiles.get(i);

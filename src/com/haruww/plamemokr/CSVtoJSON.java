@@ -6,8 +6,6 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Iterator;
 
 public class CSVtoJSON
 {
@@ -63,6 +61,7 @@ public class CSVtoJSON
         if (count==0)
         {
             jObject = (JSONObject) jParser.parse(json); //최초 1회 원본 받아오기
+            System.out.println("원본 받아옴: " + jsonFilePath);
         }
         else
         {
@@ -71,12 +70,14 @@ public class CSVtoJSON
 
         JSONArray jArrayOriginal = (JSONArray) jObject.get("scenes"); //scenes 안
 
+        System.out.println("count: " + count + "   scenesArraySize: " + jArrayOriginal.size() + "   from: " + jsonFilePath);
+
         for (int i=0; i<jArrayOriginal.size(); i++)
         {
             JSONObject jObject1 = (JSONObject) jParser.parse(jArrayOriginal.get(i).toString());
-
             if (jObject1.containsKey("texts"))
             {
+
                 JSONArray jArray1 = (JSONArray) jObject1.get("texts");
                 JSONArray jArray = (JSONArray) jArray1.get(count);
 
@@ -94,9 +95,8 @@ public class CSVtoJSON
                     jArray1.set(count, jArray);
                     jArrayOriginal.set(i, jObject1);
                     jObject.put("scenes", jArrayOriginal);
-
-                    jObjectTemp = jObject;
                 }
+                jObjectTemp = jObject;
             }
         }
     }

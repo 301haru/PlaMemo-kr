@@ -38,10 +38,12 @@ public class CSVtoJSON
             c++; //c는 몇번째줄인지 체크하는용도
         }
 
-        BufferedWriter bf = new BufferedWriter(new FileWriter("d:\\teasdf.json"));
+        BufferedWriter bf = new BufferedWriter(new FileWriter(jsonFilePath));
         bf.write(String.valueOf(jObjectTemp));
         bf.flush();
         bf.close();
+
+        jObjectTemp = null;
     }
 
 

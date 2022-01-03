@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class PlaMemoKR
 {
 
-    static final int VALUE = 1;
+    static final int VALUE = 0;
 
     //VALUE 0 : JSON to CSV
     //VALUE 1 : CSV to JSON
@@ -27,9 +27,8 @@ public class PlaMemoKR
             {
                 try
                 {
-                    for(int i=0; i<jsonFiles.size(); i++)
+                    for (String fileName : jsonFiles)
                     {
-                        String fileName = jsonFiles.get(i);
                         JSONtoCSV.toCSV(fileName);
                     }
                 }

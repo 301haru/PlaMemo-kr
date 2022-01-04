@@ -102,9 +102,9 @@ namespace PlamemoTransTool
                 tB_nameKR.Text = nameCSVkr[index].Replace("\"", "");
                 tB_nickKR.Text = nickCSVkr[index].Replace("\"", "");
 
-                Console.WriteLine("SELECTED");
-                Console.WriteLine("name::" + nameCSV[index] + " nick::" + nickCSV[index] + " line::" + lineCSV[index]);
-                Console.WriteLine("krname::" + nameCSVkr[index] + " krnick::" + nickCSVkr[index] + " krline::" + lineCSVkr[index]);
+                //Console.WriteLine("SELECTED");
+                //Console.WriteLine("name::" + nameCSV[index] + " nick::" + nickCSV[index] + " line::" + lineCSV[index]);
+                //Console.WriteLine("krname::" + nameCSVkr[index] + " krnick::" + nickCSVkr[index] + " krline::" + lineCSVkr[index]);
             }
         }
 
@@ -117,23 +117,23 @@ namespace PlamemoTransTool
                 nameCSVkr[index] = "\"" + tB_nameKR.Text + "\"";
                 nickCSVkr[index] = "\"" + tB_nickKR.Text + "\"";
 
-                Console.WriteLine("CHANGED");
-                Console.WriteLine("name::" + nameCSV[index] + " nick::" + nickCSV[index] + " line::" + lineCSV[index]);
-                Console.WriteLine("krname::" + nameCSVkr[index] + " krnick::" + nickCSVkr[index] + " krline::" + lineCSVkr[index]);
+                //Console.WriteLine("CHANGED");
+                //Console.WriteLine("name::" + nameCSV[index] + " nick::" + nickCSV[index] + " line::" + lineCSV[index]);
+                //Console.WriteLine("krname::" + nameCSVkr[index] + " krnick::" + nickCSVkr[index] + " krline::" + lineCSVkr[index]);
             }
         }
         private void saveFilecsvToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (!openFileDialog1.FileName.Equals("openFileDialog1"))
             {
-                using (StreamWriter writer = new StreamWriter("D:\\test.csv"))
+                using (StreamWriter writer = new StreamWriter(openFileDialog1.FileName))
                 {
                     for (int i=0; i<this.i; i++)
                     {
                         writer.WriteLine(nameCSV[i] + "," + nickCSV[i] + "," + lineCSV[i] + "," + nameCSVkr[i] + "," + nickCSVkr[i] + "," + lineCSVkr[i]);
                     }
 
-                    Console.WriteLine("Save Complete!");
+                    //Console.WriteLine("Save Complete!");
                 }
             }
         }

@@ -133,6 +133,7 @@ namespace PlamemoTransTool
                         writer.WriteLine(nameCSV[i] + "," + nickCSV[i] + "," + lineCSV[i] + "," + nameCSVkr[i] + "," + nickCSVkr[i] + "," + lineCSVkr[i]);
                     }
 
+                    MessageBox.Show("저장 완료: " + openFileDialog1.FileName, "알림");
                     //Console.WriteLine("Save Complete!");
                 }
             }

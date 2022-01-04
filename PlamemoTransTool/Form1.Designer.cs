@@ -53,6 +53,7 @@ namespace PlamemoTransTool
             this.btn_apply = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.lable_fileName = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -271,11 +272,22 @@ namespace PlamemoTransTool
             this.lable_fileName.Size = new System.Drawing.Size(0, 12);
             this.lable_fileName.TabIndex = 12;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.Crimson;
+            this.label7.Location = new System.Drawing.Point(503, 332);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(97, 12);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "적용 꼭 누르기!!!";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(733, 364);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.lable_fileName);
             this.Controls.Add(this.btn_apply);
             this.Controls.Add(this.groupBox2);
@@ -324,6 +336,7 @@ namespace PlamemoTransTool
         private System.Windows.Forms.Button btn_apply;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Label lable_fileName;
+        private System.Windows.Forms.Label label7;
     }
 }
 

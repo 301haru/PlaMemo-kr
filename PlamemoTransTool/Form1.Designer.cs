@@ -299,7 +299,7 @@ namespace PlamemoTransTool
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "플라메모 번역툴 v0.1";
+            this.Text = "플라메모 번역툴 v0.2";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);

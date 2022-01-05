@@ -187,7 +187,6 @@ namespace PlamemoTransTool
                 Cef.Initialize(cefSet);
             }
             br = new ChromiumWebBrowser("https://papago.naver.com/");
-
             
             groupBox3.Controls.Add(br);
         }

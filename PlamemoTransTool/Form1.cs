@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -197,6 +198,15 @@ namespace PlamemoTransTool
         private void changeStatusOfProgramTitle()
         {
             Text = o_thisText + " [" + iTransFinish + "/" + i + "] " + (double)iTransFinish / (double)i * 100 + "%";
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            SystemSounds.Beep.Play();
+            if (MessageBox.Show("종료하시겠습니까? (꼭 저장후 종료!!!)", "알림", MessageBoxButtons.YesNo) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

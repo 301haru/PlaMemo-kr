@@ -45,6 +45,7 @@ namespace PlamemoTransTool
 
             
 
+
             nameCSV = new List<string>();
             nickCSV = new List<string>();
             lineCSV = new List<string>();
@@ -98,9 +99,7 @@ namespace PlamemoTransTool
                         i++;
                     }
 
-                    o_thisText = Text;
-
-                    Text = o_thisText + " [" + iTransFinish + "/" + i + "] " + (double)iTransFinish / (double)i * 100 + "%";
+                    changeStatusOfProgramTitle();
                 }
             }
         }
@@ -132,31 +131,33 @@ namespace PlamemoTransTool
         {
             if (listBox1.SelectedItem != null)
             {
-                lineCSVkr[index] = "\"" + tB_lineKR.Text + "\"";
-                nameCSVkr[index] = "\"" + tB_nameKR.Text + "\"";
-                nickCSVkr[index] = "\"" + tB_nickKR.Text + "\"";
-
-
-                if(!tB_lineKR.Text.Equals(""))
+                if (!tB_lineKR.Text.Equals(lineCSVkr[index].Replace("\"", "")) || 
+                    !tB_nameKR.Text.Equals(nameCSVkr[index].Replace("\"", "")) || 
+                    !tB_nickKR.Text.Equals(nickCSVkr[index].Replace("\"", "")))
                 {
-                    iTransFinish++;
-                    listBox1.Items[listBox1.SelectedIndex] = listBox1.SelectedIndex + " " + tB_lineKR.Text;
+                    if (!tB_lineKR.Text.Equals(""))
+                    {
+                        if (lineCSVkr[index].Replace("\"", "").Equals(""))
+                        {
+                            iTransFinish++;
+                            changeStatusOfProgramTitle();
+                        }
+                        listBox1.Items[listBox1.SelectedIndex] = listBox1.SelectedIndex + " " + tB_lineKR.Text;
+                    }
+                    else
+                    {
+                        iTransFinish--;
+                        listBox1.Items[listBox1.SelectedIndex] = listBox1.SelectedIndex + " " + tb_line.Text;
+                        changeStatusOfProgramTitle();
+                    }
 
-                    Text = o_thisText + " [" + iTransFinish + "/" + i + "] " + (double)iTransFinish / (double)i * 100 + "%";
+                    
+                    
+
+                    lineCSVkr[index] = "\"" + tB_lineKR.Text + "\"";
+                    nameCSVkr[index] = "\"" + tB_nameKR.Text + "\"";
+                    nickCSVkr[index] = "\"" + tB_nickKR.Text + "\"";
                 }
-                else
-                {
-                    iTransFinish--;
-                    listBox1.Items[listBox1.SelectedIndex] = listBox1.SelectedIndex + " " + tb_line.Text;
-
-                    Text = o_thisText + " [" + iTransFinish + "/" + i + "] " + (double)iTransFinish / (double)i * 100 + "%";
-                }
-                
-
-
-                //Console.WriteLine("CHANGED");
-                //Console.WriteLine("name::" + nameCSV[index] + " nick::" + nickCSV[index] + " line::" + lineCSV[index]);
-                //Console.WriteLine("krname::" + nameCSVkr[index] + " krnick::" + nickCSVkr[index] + " krline::" + lineCSVkr[index]);
             }
         }
         private void saveFilecsvToolStripMenuItem_Click(object sender, EventArgs e)
@@ -179,6 +180,8 @@ namespace PlamemoTransTool
         ChromiumWebBrowser br;
         private void Form1_Load(object sender, EventArgs e)
         {
+            o_thisText = Text;
+
             if (!Cef.IsInitialized)
             {
                 CefSettings cefSet = new CefSettings();
@@ -187,9 +190,13 @@ namespace PlamemoTransTool
                 Cef.Initialize(cefSet);
             }
             br = new ChromiumWebBrowser("https://papago.naver.com/");
-
             
             groupBox3.Controls.Add(br);
+        }
+
+        private void changeStatusOfProgramTitle()
+        {
+            Text = o_thisText + " [" + iTransFinish + "/" + i + "] " + (double)iTransFinish / (double)i * 100 + "%";
         }
     }
 }

@@ -54,6 +54,7 @@ namespace PlamemoTransTool
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.lable_fileName = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -65,7 +66,7 @@ namespace PlamemoTransTool
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(733, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(881, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -98,10 +99,10 @@ namespace PlamemoTransTool
             this.listBox1.FormattingEnabled = true;
             this.listBox1.HorizontalScrollbar = true;
             this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(12, 27);
+            this.listBox1.Location = new System.Drawing.Point(12, 358);
             this.listBox1.Name = "listBox1";
             this.listBox1.ScrollAlwaysVisible = true;
-            this.listBox1.Size = new System.Drawing.Size(282, 319);
+            this.listBox1.Size = new System.Drawing.Size(426, 244);
             this.listBox1.TabIndex = 1;
             this.listBox1.Click += new System.EventHandler(this.listBox1_Click);
             // 
@@ -133,7 +134,7 @@ namespace PlamemoTransTool
             this.groupBox1.Controls.Add(this.tB_nick);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.tB_name);
-            this.groupBox1.Location = new System.Drawing.Point(300, 27);
+            this.groupBox1.Location = new System.Drawing.Point(12, 27);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(426, 144);
             this.groupBox1.TabIndex = 6;
@@ -184,7 +185,7 @@ namespace PlamemoTransTool
             this.groupBox2.Controls.Add(this.tB_nickKR);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.tB_nameKR);
-            this.groupBox2.Location = new System.Drawing.Point(300, 177);
+            this.groupBox2.Location = new System.Drawing.Point(12, 177);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(426, 142);
             this.groupBox2.TabIndex = 9;
@@ -252,7 +253,8 @@ namespace PlamemoTransTool
             // 
             // btn_apply
             // 
-            this.btn_apply.Location = new System.Drawing.Point(606, 325);
+            this.btn_apply.ForeColor = System.Drawing.Color.Red;
+            this.btn_apply.Location = new System.Drawing.Point(318, 325);
             this.btn_apply.Name = "btn_apply";
             this.btn_apply.Size = new System.Drawing.Size(110, 27);
             this.btn_apply.TabIndex = 11;
@@ -267,7 +269,7 @@ namespace PlamemoTransTool
             // lable_fileName
             // 
             this.lable_fileName.AutoSize = true;
-            this.lable_fileName.Location = new System.Drawing.Point(300, 333);
+            this.lable_fileName.Location = new System.Drawing.Point(12, 333);
             this.lable_fileName.Name = "lable_fileName";
             this.lable_fileName.Size = new System.Drawing.Size(0, 12);
             this.lable_fileName.TabIndex = 12;
@@ -276,17 +278,27 @@ namespace PlamemoTransTool
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.Crimson;
-            this.label7.Location = new System.Drawing.Point(503, 332);
+            this.label7.Location = new System.Drawing.Point(215, 332);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(97, 12);
             this.label7.TabIndex = 13;
             this.label7.Text = "적용 꼭 누르기!!!";
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Location = new System.Drawing.Point(444, 27);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(425, 573);
+            this.groupBox3.TabIndex = 14;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "파파고";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(733, 364);
+            this.ClientSize = new System.Drawing.Size(881, 612);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.lable_fileName);
             this.Controls.Add(this.btn_apply);
@@ -299,7 +311,8 @@ namespace PlamemoTransTool
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "플라메모 번역툴 v0.3";
+            this.Text = "플라메모 번역툴 v0.4";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -337,6 +350,7 @@ namespace PlamemoTransTool
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Label lable_fileName;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.GroupBox groupBox3;
     }
 }
 

@@ -9,6 +9,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CefSharp;
+using CefSharp.WinForms;
 
 namespace PlamemoTransTool
 {
@@ -18,6 +20,8 @@ namespace PlamemoTransTool
         {
             InitializeComponent();
         }
+
+        
 
         List<string> nameCSV;
         List<string> nickCSV;
@@ -170,6 +174,22 @@ namespace PlamemoTransTool
                     //Console.WriteLine("Save Complete!");
                 }
             }
+        }
+
+        ChromiumWebBrowser br;
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            if (!Cef.IsInitialized)
+            {
+                CefSettings cefSet = new CefSettings();
+
+                cefSet.Locale = "kr";
+                Cef.Initialize(cefSet);
+            }
+            br = new ChromiumWebBrowser("https://papago.naver.com/");
+
+            
+            groupBox3.Controls.Add(br);
         }
     }
 }

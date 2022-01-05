@@ -29,6 +29,11 @@ namespace PlamemoTransTool
 
         int i; //줄 수
 
+
+        int iTransFinish; //줄 번역끝난수
+
+        string o_thisText; //최초 파일이름
+
         private void openFilecsvToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Regex CSVParser = new Regex(",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))");
@@ -56,19 +61,27 @@ namespace PlamemoTransTool
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 var fileStream = openFileDialog1.OpenFile();
-                this.Text = this.Text + " " + openFileDialog1.SafeFileName;
                 lable_fileName.Text = openFileDialog1.SafeFileName;
 
                 using (StreamReader reader = new StreamReader(fileStream))
                 {
                     i = 0;
+                    iTransFinish = 0;
 
                     while (!reader.EndOfStream)
                     {
                         string line = reader.ReadLine();
                         data = CSVParser.Split(line);
 
-                        listBox1.Items.Add(i + " " + data[2].Replace("\"", ""));
+                        if (data[5].Equals("\"\""))
+                        {
+                            listBox1.Items.Add(i + " " + data[2].Replace("\"", ""));
+                        }
+                        else
+                        {
+                            iTransFinish++;
+                            listBox1.Items.Add(i + " " + data[5].Replace("\"", ""));
+                        }
 
                         nameCSV.Add(data[0]);
                         nickCSV.Add(data[1]);
@@ -81,7 +94,9 @@ namespace PlamemoTransTool
                         i++;
                     }
 
-                    
+                    o_thisText = Text;
+
+                    Text = o_thisText + " [" + iTransFinish + "/" + i + "] " + (double)iTransFinish / (double)i * 100 + "%";
                 }
             }
         }
@@ -116,6 +131,24 @@ namespace PlamemoTransTool
                 lineCSVkr[index] = "\"" + tB_lineKR.Text + "\"";
                 nameCSVkr[index] = "\"" + tB_nameKR.Text + "\"";
                 nickCSVkr[index] = "\"" + tB_nickKR.Text + "\"";
+
+
+                if(!tB_lineKR.Text.Equals(""))
+                {
+                    iTransFinish++;
+                    listBox1.Items[listBox1.SelectedIndex] = listBox1.SelectedIndex + " " + tB_lineKR.Text;
+
+                    Text = o_thisText + " [" + iTransFinish + "/" + i + "] " + (double)iTransFinish / (double)i * 100 + "%";
+                }
+                else
+                {
+                    iTransFinish--;
+                    listBox1.Items[listBox1.SelectedIndex] = listBox1.SelectedIndex + " " + tb_line.Text;
+
+                    Text = o_thisText + " [" + iTransFinish + "/" + i + "] " + (double)iTransFinish / (double)i * 100 + "%";
+                }
+                
+
 
                 //Console.WriteLine("CHANGED");
                 //Console.WriteLine("name::" + nameCSV[index] + " nick::" + nickCSV[index] + " line::" + lineCSV[index]);
